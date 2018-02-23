@@ -4,7 +4,14 @@ A MDM é uma plataforma de inteligência de dados baseada em comportamento do us
 
 ## SDK
 
-O SDK é composto de um framework com duas arquitetura embutidas (para desenvolvimento e release)
+O SDK é composto de um framework e o desenvolvedor pode escolher implementar ou não algum módulo.
+
+Módulos disponíveis:
+
+* Geo Behavior
+* App Behavior
+* Ad
+* Notification
 
 
 ## Aplicativo de exemplo
