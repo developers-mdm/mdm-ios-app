@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B97B750500C5FAEF1CAD64B /* libPods-Exemplo SDK AdServer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 981DD4F60953CA0B01521A52 /* libPods-Exemplo SDK AdServer.a */; };
+		481C72BD1D52647D00E2EF96 /* MDMAdServerConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 481C72BC1D52647D00E2EF96 /* MDMAdServerConfig.plist */; };
+		484F9C5E1D3582C600C0E4D6 /* app_ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 484F9C5D1D3582C600C0E4D6 /* app_ico.png */; };
+		484F9D081D371AE800C0E4D6 /* hands_logo_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 484F9D071D371AE800C0E4D6 /* hands_logo_s.png */; };
+		486E48811D2B23850002ED33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 486E48801D2B23850002ED33 /* main.m */; };
+		486E48841D2B23850002ED33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 486E48831D2B23850002ED33 /* AppDelegate.m */; };
+		486E48871D2B23850002ED33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 486E48861D2B23850002ED33 /* ViewController.m */; };
+		486E488A1D2B23850002ED33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 486E48881D2B23850002ED33 /* Main.storyboard */; };
+		486E488C1D2B23850002ED33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 486E488B1D2B23850002ED33 /* Assets.xcassets */; };
+		486E48971D2B27540002ED33 /* MDMConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 486E48961D2B27540002ED33 /* MDMConfig.plist */; };
+		8C1BA2C31E4B3FCD005685FA /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C1BA2C21E4B3FCD005685FA /* logo.png */; };
+		8CE9D87D2061AD13000E5560 /* sas.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8CE9D87C2061AD13000E5560 /* sas.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8C1954B61DC8CF980089761A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2ED380C76F9781F57DF21B50 /* Pods-Exemplo SDK AdServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Exemplo SDK AdServer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Exemplo SDK AdServer/Pods-Exemplo SDK AdServer.release.xcconfig"; sourceTree = "<group>"; };
+		481C72BC1D52647D00E2EF96 /* MDMAdServerConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MDMAdServerConfig.plist; sourceTree = "<group>"; };
+		484F9C5D1D3582C600C0E4D6 /* app_ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_ico.png; sourceTree = "<group>"; };
+		484F9D071D371AE800C0E4D6 /* hands_logo_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hands_logo_s.png; sourceTree = "<group>"; };
+		486E487C1D2B23850002ED33 /* MDM iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MDM iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		486E48801D2B23850002ED33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		486E48821D2B23850002ED33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		486E48831D2B23850002ED33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		486E48851D2B23850002ED33 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		486E48861D2B23850002ED33 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		486E48891D2B23850002ED33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		486E488B1D2B23850002ED33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		486E48901D2B23850002ED33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		486E48961D2B27540002ED33 /* MDMConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MDMConfig.plist; sourceTree = "<group>"; };
+		8C1BA2C11E4B3F13005685FA /* Exemplo SDK AdServer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Exemplo SDK AdServer.entitlements"; sourceTree = "<group>"; };
+		8C1BA2C21E4B3FCD005685FA /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		8CE9D87C2061AD13000E5560 /* sas.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = sas.bundle; sourceTree = "<group>"; };
+		981DD4F60953CA0B01521A52 /* libPods-Exemplo SDK AdServer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Exemplo SDK AdServer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0508882329E1C4F4C672EE2 /* Pods-Exemplo SDK AdServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Exemplo SDK AdServer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Exemplo SDK AdServer/Pods-Exemplo SDK AdServer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		486E48791D2B23850002ED33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B97B750500C5FAEF1CAD64B /* libPods-Exemplo SDK AdServer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0316DA46FE768E9F17F1D8AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0508882329E1C4F4C672EE2 /* Pods-Exemplo SDK AdServer.debug.xcconfig */,
+				2ED380C76F9781F57DF21B50 /* Pods-Exemplo SDK AdServer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		486E48731D2B23850002ED33 = {
+			isa = PBXGroup;
+			children = (
+				8C1BA2C11E4B3F13005685FA /* Exemplo SDK AdServer.entitlements */,
+				8CE9D87C2061AD13000E5560 /* sas.bundle */,
+				486E487E1D2B23850002ED33 /* App */,
+				486E487D1D2B23850002ED33 /* Products */,
+				0316DA46FE768E9F17F1D8AF /* Pods */,
+				5C6B0D6AC972518FABB2A5DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		486E487D1D2B23850002ED33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				486E487C1D2B23850002ED33 /* MDM iOS Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		486E487E1D2B23850002ED33 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				486E48821D2B23850002ED33 /* AppDelegate.h */,
+				486E48831D2B23850002ED33 /* AppDelegate.m */,
+				486E48851D2B23850002ED33 /* ViewController.h */,
+				486E48861D2B23850002ED33 /* ViewController.m */,
+				486E48961D2B27540002ED33 /* MDMConfig.plist */,
+				481C72BC1D52647D00E2EF96 /* MDMAdServerConfig.plist */,
+				486E48881D2B23850002ED33 /* Main.storyboard */,
+				486E488B1D2B23850002ED33 /* Assets.xcassets */,
+				486E48901D2B23850002ED33 /* Info.plist */,
+				486E487F1D2B23850002ED33 /* Supporting Files */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		486E487F1D2B23850002ED33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C1BA2C21E4B3FCD005685FA /* logo.png */,
+				484F9D071D371AE800C0E4D6 /* hands_logo_s.png */,
+				484F9C5D1D3582C600C0E4D6 /* app_ico.png */,
+				486E48801D2B23850002ED33 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C6B0D6AC972518FABB2A5DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				981DD4F60953CA0B01521A52 /* libPods-Exemplo SDK AdServer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		486E487B1D2B23850002ED33 /* MDM iOS Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 486E48931D2B23850002ED33 /* Build configuration list for PBXNativeTarget "MDM iOS Example" */;
+			buildPhases = (
+				6537C1111C6E049809B20B69 /* [CP] Check Pods Manifest.lock */,
+				486E48781D2B23850002ED33 /* Sources */,
+				486E48791D2B23850002ED33 /* Frameworks */,
+				486E487A1D2B23850002ED33 /* Resources */,
+				8C1954B61DC8CF980089761A /* Embed Frameworks */,
+				C8C5562F517A0DFD74240222 /* [CP] Embed Pods Frameworks */,
+				27E67AA696ABE9960033C930 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MDM iOS Example";
+			productName = Teste;
+			productReference = 486E487C1D2B23850002ED33 /* MDM iOS Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		486E48741D2B23850002ED33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Rogerio;
+				TargetAttributes = {
+					486E487B1D2B23850002ED33 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9P84JZ9879;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 486E48771D2B23850002ED33 /* Build configuration list for PBXProject "MDM iOS Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 486E48731D2B23850002ED33;
+			productRefGroup = 486E487D1D2B23850002ED33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				486E487B1D2B23850002ED33 /* MDM iOS Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		486E487A1D2B23850002ED33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484F9C5E1D3582C600C0E4D6 /* app_ico.png in Resources */,
+				8CE9D87D2061AD13000E5560 /* sas.bundle in Resources */,
+				481C72BD1D52647D00E2EF96 /* MDMAdServerConfig.plist in Resources */,
+				486E48971D2B27540002ED33 /* MDMConfig.plist in Resources */,
+				486E488C1D2B23850002ED33 /* Assets.xcassets in Resources */,
+				8C1BA2C31E4B3FCD005685FA /* logo.png in Resources */,
+				486E488A1D2B23850002ED33 /* Main.storyboard in Resources */,
+				484F9D081D371AE800C0E4D6 /* hands_logo_s.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27E67AA696ABE9960033C930 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Exemplo SDK AdServer/Pods-Exemplo SDK AdServer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6537C1111C6E049809B20B69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Exemplo SDK AdServer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8C5562F517A0DFD74240222 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Exemplo SDK AdServer/Pods-Exemplo SDK AdServer-frameworks.sh",
+				"${PODS_ROOT}/MDMBundle/MDMBundle.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDMBundle.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Exemplo SDK AdServer/Pods-Exemplo SDK AdServer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		486E48781D2B23850002ED33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				486E48871D2B23850002ED33 /* ViewController.m in Sources */,
+				486E48841D2B23850002ED33 /* AppDelegate.m in Sources */,
+				486E48811D2B23850002ED33 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		486E48881D2B23850002ED33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				486E48891D2B23850002ED33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		486E48911D2B23850002ED33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		486E48921D2B23850002ED33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		486E48941D2B23850002ED33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0508882329E1C4F4C672EE2 /* Pods-Exemplo SDK AdServer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Exemplo SDK AdServer.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Smart",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.mdm.ios.example;
+				PRODUCT_NAME = "MDM iOS Example";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		486E48951D2B23850002ED33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ED380C76F9781F57DF21B50 /* Pods-Exemplo SDK AdServer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Exemplo SDK AdServer.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Smart",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.mdm.ios.example;
+				PRODUCT_NAME = "MDM iOS Example";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		486E48771D2B23850002ED33 /* Build configuration list for PBXProject "MDM iOS Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				486E48911D2B23850002ED33 /* Debug */,
+				486E48921D2B23850002ED33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		486E48931D2B23850002ED33 /* Build configuration list for PBXNativeTarget "MDM iOS Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				486E48941D2B23850002ED33 /* Debug */,
+				486E48951D2B23850002ED33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 486E48741D2B23850002ED33 /* Project object */;
+}
