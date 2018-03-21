@@ -7,6 +7,7 @@
 #import "AppDelegate.h"
 #import <sys/utsname.h>
 #import <MDMBundle/MDMBundle.h>
+@import UserNotifications;
 
 @interface AppDelegate ()
 
@@ -29,20 +30,28 @@
     // [MDMAd start];
     // [MDMNotification start];
     
-    
-    UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
-    [center requestAuthorizationWithOptions:(UNAuthorizationOptionAlert + UNAuthorizationOptionSound) completionHandler:^(BOOL granted, NSError * _Nullable error) {
-        // Enable or disable features based on authorization.
-    }];
-    [application registerForRemoteNotifications];
-
+    if (@available(iOS 10.0, *)) {
+        UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
+        [center requestAuthorizationWithOptions:(UNAuthorizationOptionAlert + UNAuthorizationOptionBadge + UNAuthorizationOptionSound) completionHandler:^(BOOL granted, NSError * _Nullable error) {
+            if (granted) {
+                dispatch_async(dispatch_get_main_queue(), ^(void){
+                    [application registerForRemoteNotifications];
+                });
+            }
+        }];
+    } else {
+        if ([[UIApplication sharedApplication] respondsToSelector:@selector(registerUserNotificationSettings:)]) {
+            UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAlert | UIUserNotificationTypeBadge | UIUserNotificationTypeSound categories:nil];
+            [UIApplication.sharedApplication registerUserNotificationSettings:settings];
+            [[UIApplication sharedApplication] registerForRemoteNotifications];
+        }
+    }
     
     return YES;
 }
 
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData*)deviceToken {
-    NSString *token = [[[[deviceToken description] stringByReplacingOccurrencesOfString: @"<" withString: @""] stringByReplacingOccurrencesOfString: @">" withString: @""] stringByReplacingOccurrencesOfString: @" " withString: @""] ;
-    [MDMNotification registerTokenForPushNotification:token];
+    [MDMNotification registerTokenForPushNotification:deviceToken];
 }
 
 - (void)application:(UIApplication *)app didFailToRegisterForRemoteNotificationsWithError:(NSError *)err {
@@ -67,7 +76,6 @@
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
-//    [self.MBHSharedManager restartMonitoringVisits];
 }
 
 @end

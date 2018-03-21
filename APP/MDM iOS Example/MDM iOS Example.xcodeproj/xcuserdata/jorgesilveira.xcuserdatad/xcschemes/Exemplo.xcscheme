@@ -34,7 +34,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "486E487B1D2B23850002ED33"
-            BuildableName = "Exemplo SDK AdServer.app"
+            BuildableName = "MDM iOS Example.app"
             BlueprintName = "MDM iOS Example"
             ReferencedContainer = "container:MDM iOS Example.xcodeproj">
          </BuildableReference>
@@ -58,7 +58,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "486E487B1D2B23850002ED33"
-            BuildableName = "Exemplo SDK AdServer.app"
+            BuildableName = "MDM iOS Example.app"
             BlueprintName = "MDM iOS Example"
             ReferencedContainer = "container:MDM iOS Example.xcodeproj">
          </BuildableReference>
