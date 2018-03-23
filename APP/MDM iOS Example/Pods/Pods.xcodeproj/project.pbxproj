@@ -7,30 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C7B1E33DEE43F528C1CAB0D9981331A /* Pods-Exemplo SDK AdServer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5EEBA349B4B4DD695C9594A77AB4CA /* Pods-Exemplo SDK AdServer-dummy.m */; };
-		4BD86ABFBFB6B4DC92B64BA46F7755BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		84625B4A727D31ED15C92A9603B85C20 /* Pods-MDM iOS Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C79C146486D51A4F0653BB514F85E6 /* Pods-MDM iOS Example-dummy.m */; };
+		F65F458CEAE2709E5094F5DF23CF6C93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6410B5A255E98EB32708A1A016184827 /* Pods-Exemplo SDK AdServer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Exemplo SDK AdServer-frameworks.sh"; sourceTree = "<group>"; };
+		2024E2896C3E65966905B472125BAAC9 /* Pods-MDM iOS Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MDM iOS Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		24C79C146486D51A4F0653BB514F85E6 /* Pods-MDM iOS Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MDM iOS Example-dummy.m"; sourceTree = "<group>"; };
+		5965A5F7491E6CD840D06E23BFDD8F02 /* Pods-MDM iOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MDM iOS Example.release.xcconfig"; sourceTree = "<group>"; };
+		6147E8FBA7508FB1979D62B26666622F /* Pods-MDM iOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MDM iOS Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6780736811659B744EE938B9800CFF5D /* Pods-Exemplo SDK AdServer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Exemplo SDK AdServer-resources.sh"; sourceTree = "<group>"; };
-		7CE8C0AF98DC70EED27BBA3075F6D3A5 /* Pods-Exemplo SDK AdServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Exemplo SDK AdServer.debug.xcconfig"; sourceTree = "<group>"; };
-		829D04FB5A5365E6598D4B60E5094B50 /* Pods-Exemplo SDK AdServer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Exemplo SDK AdServer-acknowledgements.plist"; sourceTree = "<group>"; };
+		74F169410F971A1DCEC4DFA3C12E0926 /* Pods-MDM iOS Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MDM iOS Example-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E5EEBA349B4B4DD695C9594A77AB4CA /* Pods-Exemplo SDK AdServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Exemplo SDK AdServer-dummy.m"; sourceTree = "<group>"; };
-		9FECED4E38D808D77EB2F964EEBD9D17 /* Pods-Exemplo SDK AdServer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Exemplo SDK AdServer-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D78AE14807CC81280BDF74910001541C /* libPods-Exemplo SDK AdServer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Exemplo SDK AdServer.a"; path = "libPods-Exemplo SDK AdServer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C91973D52FB6DAA10B4310520F1B6A4A /* libPods-MDM iOS Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MDM iOS Example.a"; path = "libPods-MDM iOS Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1A4B6A78F52F6FDD9EFF24AE195143 /* Pods-MDM iOS Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MDM iOS Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E88BAA601956B08F95556716A31186B8 /* MDMBundle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MDMBundle.framework; sourceTree = "<group>"; };
-		FE6D2061643F80BB4E813AA61F5A2F68 /* Pods-Exemplo SDK AdServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Exemplo SDK AdServer.release.xcconfig"; sourceTree = "<group>"; };
+		EFDB77BF3B783CB4DE63FFA202AE1AB0 /* Pods-MDM iOS Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MDM iOS Example-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CF513C256432FCFD87A4C41A0669D1AD /* Frameworks */ = {
+		94BD61D20731594A5A5B3B682160140C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BD86ABFBFB6B4DC92B64BA46F7755BF /* Foundation.framework in Frameworks */,
+				F65F458CEAE2709E5094F5DF23CF6C93 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,20 +45,12 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		4F43CA4E5C539744B08CB46AD1A2CA2F /* Targets Support Files */ = {
+		440F699C8958A506B72D696110DABD39 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D35F0B78575AF3BE04EBDF0BCB35606A /* Pods-Exemplo SDK AdServer */,
+				C92D9E510CEB2916EF6EDB5F138A079B /* Pods-MDM iOS Example */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		50BB9A8078BFE2639F53E0563EC59522 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D78AE14807CC81280BDF74910001541C /* libPods-Exemplo SDK AdServer.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		735FDA872A43CD5724D17E7BB94119DD /* Frameworks */ = {
@@ -75,8 +67,8 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				08E128CEEA15634DC727289F53A1AF46 /* Pods */,
-				50BB9A8078BFE2639F53E0563EC59522 /* Products */,
-				4F43CA4E5C539744B08CB46AD1A2CA2F /* Targets Support Files */,
+				D626551B3686637F0FA8D515D4ECDA02 /* Products */,
+				440F699C8958A506B72D696110DABD39 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +89,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C92D9E510CEB2916EF6EDB5F138A079B /* Pods-MDM iOS Example */ = {
+			isa = PBXGroup;
+			children = (
+				CC1A4B6A78F52F6FDD9EFF24AE195143 /* Pods-MDM iOS Example-acknowledgements.markdown */,
+				2024E2896C3E65966905B472125BAAC9 /* Pods-MDM iOS Example-acknowledgements.plist */,
+				24C79C146486D51A4F0653BB514F85E6 /* Pods-MDM iOS Example-dummy.m */,
+				74F169410F971A1DCEC4DFA3C12E0926 /* Pods-MDM iOS Example-frameworks.sh */,
+				EFDB77BF3B783CB4DE63FFA202AE1AB0 /* Pods-MDM iOS Example-resources.sh */,
+				6147E8FBA7508FB1979D62B26666622F /* Pods-MDM iOS Example.debug.xcconfig */,
+				5965A5F7491E6CD840D06E23BFDD8F02 /* Pods-MDM iOS Example.release.xcconfig */,
+			);
+			name = "Pods-MDM iOS Example";
+			path = "Target Support Files/Pods-MDM iOS Example";
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,38 +112,31 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D35F0B78575AF3BE04EBDF0BCB35606A /* Pods-Exemplo SDK AdServer */ = {
+		D626551B3686637F0FA8D515D4ECDA02 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9FECED4E38D808D77EB2F964EEBD9D17 /* Pods-Exemplo SDK AdServer-acknowledgements.markdown */,
-				829D04FB5A5365E6598D4B60E5094B50 /* Pods-Exemplo SDK AdServer-acknowledgements.plist */,
-				9E5EEBA349B4B4DD695C9594A77AB4CA /* Pods-Exemplo SDK AdServer-dummy.m */,
-				6410B5A255E98EB32708A1A016184827 /* Pods-Exemplo SDK AdServer-frameworks.sh */,
-				6780736811659B744EE938B9800CFF5D /* Pods-Exemplo SDK AdServer-resources.sh */,
-				7CE8C0AF98DC70EED27BBA3075F6D3A5 /* Pods-Exemplo SDK AdServer.debug.xcconfig */,
-				FE6D2061643F80BB4E813AA61F5A2F68 /* Pods-Exemplo SDK AdServer.release.xcconfig */,
+				C91973D52FB6DAA10B4310520F1B6A4A /* libPods-MDM iOS Example.a */,
 			);
-			name = "Pods-Exemplo SDK AdServer";
-			path = "Target Support Files/Pods-Exemplo SDK AdServer";
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		39B0C5E07F8219A7CF9987E83B835419 /* Pods-Exemplo SDK AdServer */ = {
+		A702FA00B5E782FEE2B186D2D8CC0858 /* Pods-MDM iOS Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 34C91961B17DFA1BD228D83F330E6002 /* Build configuration list for PBXNativeTarget "Pods-Exemplo SDK AdServer" */;
+			buildConfigurationList = E646CAECEE8B227D7E38D47D123B550D /* Build configuration list for PBXNativeTarget "Pods-MDM iOS Example" */;
 			buildPhases = (
-				6C445BC7D03ECE549E644954D4C56A7F /* Sources */,
-				CF513C256432FCFD87A4C41A0669D1AD /* Frameworks */,
+				B46996749052C8C86BB29369215D4AB9 /* Sources */,
+				94BD61D20731594A5A5B3B682160140C /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-Exemplo SDK AdServer";
-			productName = "Pods-Exemplo SDK AdServer";
-			productReference = D78AE14807CC81280BDF74910001541C /* libPods-Exemplo SDK AdServer.a */;
+			name = "Pods-MDM iOS Example";
+			productName = "Pods-MDM iOS Example";
+			productReference = C91973D52FB6DAA10B4310520F1B6A4A /* libPods-MDM iOS Example.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -156,27 +156,48 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 50BB9A8078BFE2639F53E0563EC59522 /* Products */;
+			productRefGroup = D626551B3686637F0FA8D515D4ECDA02 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				39B0C5E07F8219A7CF9987E83B835419 /* Pods-Exemplo SDK AdServer */,
+				A702FA00B5E782FEE2B186D2D8CC0858 /* Pods-MDM iOS Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6C445BC7D03ECE549E644954D4C56A7F /* Sources */ = {
+		B46996749052C8C86BB29369215D4AB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C7B1E33DEE43F528C1CAB0D9981331A /* Pods-Exemplo SDK AdServer-dummy.m in Sources */,
+				84625B4A727D31ED15C92A9603B85C20 /* Pods-MDM iOS Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		219D8DE6B1932FBBA8AEEBC0667B8318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5965A5F7491E6CD840D06E23BFDD8F02 /* Pods-MDM iOS Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		26F954BA177A9A46FFFD4E23ED11D67A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -232,47 +253,6 @@
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		86788B7ED555E8FF1B314D569ED302D0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CE8C0AF98DC70EED27BBA3075F6D3A5 /* Pods-Exemplo SDK AdServer.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C0D5263CEDF76E0426B5F1B213C01156 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE6D2061643F80BB4E813AA61F5A2F68 /* Pods-Exemplo SDK AdServer.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -339,6 +319,26 @@
 			};
 			name = Debug;
 		};
+		F1E91BAA7CD8BDE5CD8D812D5308CBF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6147E8FBA7508FB1979D62B26666622F /* Pods-MDM iOS Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -351,11 +351,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		34C91961B17DFA1BD228D83F330E6002 /* Build configuration list for PBXNativeTarget "Pods-Exemplo SDK AdServer" */ = {
+		E646CAECEE8B227D7E38D47D123B550D /* Build configuration list for PBXNativeTarget "Pods-MDM iOS Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				86788B7ED555E8FF1B314D569ED302D0 /* Debug */,
-				C0D5263CEDF76E0426B5F1B213C01156 /* Release */,
+				F1E91BAA7CD8BDE5CD8D812D5308CBF4 /* Debug */,
+				219D8DE6B1932FBBA8AEEBC0667B8318 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

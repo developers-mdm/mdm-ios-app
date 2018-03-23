@@ -14,6 +14,8 @@ FOUNDATION_EXPORT double MDMAppBehaviorVersionNumber;
 //! Project version string for MDMAppBehavior.
 FOUNDATION_EXPORT const unsigned char MDMAppBehaviorVersionString[];
 
+#define MODULE_APP @"mdm-appbehavior"
+
 @interface MDMAppBehavior : NSObject
 
 + (void)start;

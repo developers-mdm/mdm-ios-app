@@ -17,6 +17,8 @@ FOUNDATION_EXPORT double MDMAdVersionNumber;
 //! Project version string for MDMAd.
 FOUNDATION_EXPORT const unsigned char MDMAdVersionString[];
 
+#define MODULE_AD @"mdm-ad"
+
 @interface MDMAd : NSObject
 
 typedef NS_ENUM(NSInteger, MDMAdType) {

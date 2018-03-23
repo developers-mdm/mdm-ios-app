@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B97B750500C5FAEF1CAD64B /* libPods-Exemplo SDK AdServer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 981DD4F60953CA0B01521A52 /* libPods-Exemplo SDK AdServer.a */; };
 		481C72BD1D52647D00E2EF96 /* MDMAdServerConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 481C72BC1D52647D00E2EF96 /* MDMAdServerConfig.plist */; };
 		484F9C5E1D3582C600C0E4D6 /* app_ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 484F9C5D1D3582C600C0E4D6 /* app_ico.png */; };
 		484F9D081D371AE800C0E4D6 /* hands_logo_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 484F9D071D371AE800C0E4D6 /* hands_logo_s.png */; };
@@ -19,6 +18,7 @@
 		486E48971D2B27540002ED33 /* MDMConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 486E48961D2B27540002ED33 /* MDMConfig.plist */; };
 		8C1BA2C31E4B3FCD005685FA /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C1BA2C21E4B3FCD005685FA /* logo.png */; };
 		8CE9D87D2061AD13000E5560 /* sas.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8CE9D87C2061AD13000E5560 /* sas.bundle */; };
+		EC3030C8CD7953405B4478CC /* libPods-MDM iOS Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE87AA19A82A48A1B9E3669 /* libPods-MDM iOS Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,11 +49,14 @@
 		486E488B1D2B23850002ED33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		486E48901D2B23850002ED33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		486E48961D2B27540002ED33 /* MDMConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MDMConfig.plist; sourceTree = "<group>"; };
-		8C1BA2C11E4B3F13005685FA /* Exemplo SDK AdServer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Exemplo SDK AdServer.entitlements"; sourceTree = "<group>"; };
 		8C1BA2C21E4B3FCD005685FA /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		8CCCAD6720659C8C00E00DBC /* MDM iOS Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "MDM iOS Example.entitlements"; sourceTree = "<group>"; };
 		8CE9D87C2061AD13000E5560 /* sas.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = sas.bundle; sourceTree = "<group>"; };
 		981DD4F60953CA0B01521A52 /* libPods-Exemplo SDK AdServer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Exemplo SDK AdServer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CE87AA19A82A48A1B9E3669 /* libPods-MDM iOS Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MDM iOS Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0508882329E1C4F4C672EE2 /* Pods-Exemplo SDK AdServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Exemplo SDK AdServer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Exemplo SDK AdServer/Pods-Exemplo SDK AdServer.debug.xcconfig"; sourceTree = "<group>"; };
+		D5FE79646CC29431ABC269F6 /* Pods-MDM iOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDM iOS Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MDM iOS Example/Pods-MDM iOS Example.release.xcconfig"; sourceTree = "<group>"; };
+		F2E501281D0BBBC34F18FA2E /* Pods-MDM iOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDM iOS Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MDM iOS Example/Pods-MDM iOS Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B97B750500C5FAEF1CAD64B /* libPods-Exemplo SDK AdServer.a in Frameworks */,
+				EC3030C8CD7953405B4478CC /* libPods-MDM iOS Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +76,8 @@
 			children = (
 				A0508882329E1C4F4C672EE2 /* Pods-Exemplo SDK AdServer.debug.xcconfig */,
 				2ED380C76F9781F57DF21B50 /* Pods-Exemplo SDK AdServer.release.xcconfig */,
+				F2E501281D0BBBC34F18FA2E /* Pods-MDM iOS Example.debug.xcconfig */,
+				D5FE79646CC29431ABC269F6 /* Pods-MDM iOS Example.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -80,7 +85,7 @@
 		486E48731D2B23850002ED33 = {
 			isa = PBXGroup;
 			children = (
-				8C1BA2C11E4B3F13005685FA /* Exemplo SDK AdServer.entitlements */,
+				8CCCAD6720659C8C00E00DBC /* MDM iOS Example.entitlements */,
 				8CE9D87C2061AD13000E5560 /* sas.bundle */,
 				486E487E1D2B23850002ED33 /* App */,
 				486E487D1D2B23850002ED33 /* Products */,
@@ -129,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				981DD4F60953CA0B01521A52 /* libPods-Exemplo SDK AdServer.a */,
+				9CE87AA19A82A48A1B9E3669 /* libPods-MDM iOS Example.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -229,7 +235,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Exemplo SDK AdServer/Pods-Exemplo SDK AdServer-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MDM iOS Example/Pods-MDM iOS Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6537C1111C6E049809B20B69 /* [CP] Check Pods Manifest.lock */ = {
@@ -243,7 +249,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Exemplo SDK AdServer-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MDM iOS Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -256,7 +262,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Exemplo SDK AdServer/Pods-Exemplo SDK AdServer-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-MDM iOS Example/Pods-MDM iOS Example-frameworks.sh",
 				"${PODS_ROOT}/MDMBundle/MDMBundle.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -265,7 +271,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Exemplo SDK AdServer/Pods-Exemplo SDK AdServer-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MDM iOS Example/Pods-MDM iOS Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -381,11 +387,11 @@
 		};
 		486E48941D2B23850002ED33 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0508882329E1C4F4C672EE2 /* Pods-Exemplo SDK AdServer.debug.xcconfig */;
+			baseConfigurationReference = F2E501281D0BBBC34F18FA2E /* Pods-MDM iOS Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = "Exemplo SDK AdServer.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "MDM iOS Example.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
@@ -394,7 +400,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -410,11 +416,11 @@
 		};
 		486E48951D2B23850002ED33 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2ED380C76F9781F57DF21B50 /* Pods-Exemplo SDK AdServer.release.xcconfig */;
+			baseConfigurationReference = D5FE79646CC29431ABC269F6 /* Pods-MDM iOS Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = "Exemplo SDK AdServer.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "MDM iOS Example.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
@@ -423,7 +429,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",

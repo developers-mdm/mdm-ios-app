@@ -14,13 +14,15 @@ FOUNDATION_EXPORT double MDMNotificationVersionNumber;
 //! Project version string for MDMNotification.
 FOUNDATION_EXPORT const unsigned char MDMNotificationVersionString[];
 
+#define MODULE_NOTIFICATION @"mdm-notification"
+
 @interface MDMNotification : NSObject
 
 + (void)start;
 
 + (BOOL)processNotification:(NSDictionary *)dictionaryData;
 
-+ (void)registerTokenForPushNotification:(NSString *)token;
++ (void)registerTokenForPushNotification:(NSData *)deviceToken;
 
 + (void)unregisterTokenForPushNotification;
 

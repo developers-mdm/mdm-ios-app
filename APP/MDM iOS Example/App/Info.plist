@@ -183,12 +183,12 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
-    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-    <string>O aplicativo $(EXECUTABLE_NAME) usará a localização para otimizar a sua experiência.</string>
-    <key>NSLocationAlwaysUsageDescription</key>
-    <string>O aplicativo $(EXECUTABLE_NAME) usará a localização para otimizar a sua experiência.</string>
-    <key>NSLocationWhenInUseUsageDescription</key>
-    <string>O aplicativo $(EXECUTABLE_NAME) usará a localização para otimizar a sua experiência.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>O aplicativo $(EXECUTABLE_NAME) usará a localização para otimizar a sua experiência.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>O aplicativo $(EXECUTABLE_NAME) usará a localização para otimizar a sua experiência.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>O aplicativo $(EXECUTABLE_NAME) usará a localização para otimizar a sua experiência.</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>fetch</string>

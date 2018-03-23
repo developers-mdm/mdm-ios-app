@@ -14,6 +14,8 @@ FOUNDATION_EXPORT double MDMGeoBehaviorVersionNumber;
 //! Project version string for MDMGeoBehavior.
 FOUNDATION_EXPORT const unsigned char MDMGeoBehaviorVersionString[];
 
+#define MODULE_GEO @"mdm-geobehavior"
+
 @interface MDMGeoBehavior : NSObject
 
 + (void)start;

@@ -16,9 +16,9 @@ FOUNDATION_EXPORT double MDMCoreVersionNumber;
 //! Project version string for MDMCore.
 FOUNDATION_EXPORT const unsigned char MDMCoreVersionString[];
 
-@interface MDMCore : NSObject
+#define MODULE_CORE @"mdm-core"
 
-+ (NSOperationQueue *)getOperationQueue;
+@interface MDMCore : NSObject
 
 + (void)setDebugMode:(BOOL)debugMode;
 
