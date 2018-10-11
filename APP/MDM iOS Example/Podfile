@@ -1,3 +1,4 @@
+source 'http://gitlab.corp.hands.com.br/hands-mdm/mobile/ios-specs-beta.git'
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
@@ -6,7 +7,19 @@ target 'MDM iOS Example' do
   # use_frameworks!
 
   # Pods for MDM iOS Example
+  pod 'MDMBundle', '3.2.0'
+end
 
-  pod 'MDMBundle'
+target 'MDMNotificationService' do
+    # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+    
+    # Pods for NotificationPOC
+    pod 'MDMBundle', '3.2.0'
+end
 
+target 'MDMNotificationContent' do
+    # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+
+    # Pods for NotificationPOC
+    pod 'MDMBundle', '3.2.0'
 end

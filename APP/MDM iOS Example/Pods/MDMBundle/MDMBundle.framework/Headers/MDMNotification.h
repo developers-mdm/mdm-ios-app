@@ -6,7 +6,10 @@
 //  Copyright © 2018 Hands. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#import "MDMNotificationService.h"
+#import "MDMNotificationViewController.h"
 
 //! Project version number for MDMNotification.
 FOUNDATION_EXPORT double MDMNotificationVersionNumber;
@@ -20,10 +23,12 @@ FOUNDATION_EXPORT const unsigned char MDMNotificationVersionString[];
 
 + (void)start;
 
-+ (BOOL)processNotification:(NSDictionary *)dictionaryData;
++ (BOOL)isMDMNotification:(NSDictionary *)userInfo;
 
-+ (void)registerTokenForPushNotification:(NSData *)deviceToken;
++ (void)registerToken:(NSData *)tokenData;
 
-+ (void)unregisterTokenForPushNotification;
++ (void)unregisterToken;
+
++ (void)processNotification:(NSDictionary *)userInfo;
 
 @end

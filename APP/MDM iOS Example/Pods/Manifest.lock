@@ -1,12 +1,22 @@
 PODS:
-  - MDMBundle (3.0.0)
+  - MDMBundle (3.2.0):
+    - MDMBundle/Core (= 3.2.0)
+  - MDMBundle/Core (3.2.0):
+    - MDMCore (= 3.2.0)
+  - MDMCore (3.2.0)
 
 DEPENDENCIES:
-  - MDMBundle
+  - MDMBundle (= 3.2.0)
+
+SPEC REPOS:
+  http://gitlab.corp.hands.com.br/hands-mdm/mobile/ios-specs-beta.git:
+    - MDMBundle
+    - MDMCore
 
 SPEC CHECKSUMS:
-  MDMBundle: 4766a2fd27d3feb88a03d97d5297160faca8b2b2
+  MDMBundle: 5ed3a468a9d63827aa2e8b24651cef5286d4f54a
+  MDMCore: 4faf953940ca7ddd3a6f2e4aaf2c53a233b29897
 
-PODFILE CHECKSUM: e60cfb7ff127d6ec2ac46e0321ea3089569f7da9
+PODFILE CHECKSUM: 019482e5ea6abfdb4425d7a4af4cd88b34a35c91
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.0

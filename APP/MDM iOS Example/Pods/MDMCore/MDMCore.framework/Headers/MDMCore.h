@@ -8,8 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-#import "MDMCoreDelegate.h"
-
 //! Project version number for MDMCore.
 FOUNDATION_EXPORT double MDMCoreVersionNumber;
 
@@ -24,9 +22,9 @@ FOUNDATION_EXPORT const unsigned char MDMCoreVersionString[];
 
 + (BOOL)isInDebugMode;
 
-+ (BOOL)isUser;
++ (BOOL)hasUser;
 
-+ (void)askBackendPermissionToStartService:(id<MDMCoreDelegate>)delegate;
++ (void)askBackendPermissionToStartService:(id)delegate;
 
 + (void)setData:(NSString *)key value:(NSString *)value encrypted:(BOOL)encrypted;
 

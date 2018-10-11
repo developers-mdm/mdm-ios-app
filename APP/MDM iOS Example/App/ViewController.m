@@ -8,8 +8,9 @@
 #import <CoreLocation/CoreLocation.h>
 #import <MDMBundle/MDMGeoBehavior.h>
 #import <MDMBundle/MDMAd.h>
+#import <MDMBundle/MDMAdDelegate.h>
 
-@interface ViewController ()
+@interface ViewController () <CLLocationManagerDelegate>
 
 @end
 
@@ -20,23 +21,20 @@ CLLocationManager *locationManager;
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    locationManager = [CLLocationManager new];
-    locationManager.delegate = self;
-    
     // Verifica permissão de geolocalização
     if ([CLLocationManager authorizationStatus] == kCLAuthorizationStatusNotDetermined || [CLLocationManager authorizationStatus] == kCLAuthorizationStatusDenied) {
+        locationManager = [CLLocationManager new];
+        locationManager.delegate = self;
         // Requisitar permissão de geolocalização
         [locationManager requestAlwaysAuthorization];
     }
     
-    
     // Apresenta os banners dos IDs de formato e página do arquivo de configuração MDMAdServerConfig.plist
-    CGRect frame = CGRectMake(0, 0, CGRectGetWidth(self.view.frame), 53);
-    [MDMAd loadAd:frame type:MDMAdBannerView loader:MDMStyleBlack format:@"ARROBA" screen:@"MAIN" delegate:self parent:self];
-    
-    CGRect frameFull = CGRectMake(0, 0, CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame));
-    [MDMAd loadAd:frameFull type:MDMAdInterstitialView loader:MDMStyleBlack format:@"INTERSTITIAL" screen:@"MAIN" delegate:self parent:self];
+    CGRect frame = CGRectMake(0, (self.view.frame.size.height/2)-100, CGRectGetWidth(self.view.frame), 250);
+    [MDMAd loadAd:frame type:MDMAdBannerView loader:MDMStyleBlack format:@"ARROBA" screen:@"MAIN" delegate:nil parent:self];
 
+    CGRect frameFull = CGRectMake(0, 0, CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame));
+    [MDMAd loadAd:frameFull type:MDMAdInterstitialView loader:MDMStyleBlack format:@"INTERSTITIAL" screen:@"MAIN" delegate:nil parent:self];
 }
 
 - (void)locationManager:(CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status {
@@ -55,5 +53,21 @@ CLLocationManager *locationManager;
 
 - (void)dealloc {
 }
+
+//- (void)adViewDidCloseExpandWithFrame:(CGRect)frame {
+//    
+//}
+//
+//- (void)adViewDidDisappear {
+//    
+//}
+//
+//- (void)adViewDidFailToLoadWithError:(NSError *)error {
+//    NSLog(@"erroad: %@", error);
+//}
+//
+//- (void)adViewWillExpand {
+//    
+//}
 
 @end

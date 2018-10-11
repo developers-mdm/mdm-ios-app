@@ -9,8 +9,6 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-#import "MDMAdDelegate.h"
-
 //! Project version number for MDMAd.
 FOUNDATION_EXPORT double MDMAdVersionNumber;
 
@@ -37,7 +35,7 @@ typedef NS_ENUM(NSInteger, MDMAdLoading) {
 
 + (NSMutableArray *)getAudiences;
 
-+ (void)loadAd:(CGRect)frame type:(MDMAdType)type loader:(MDMAdLoading)loader format:(NSString*)format screen:(NSString*)screen delegate:(id<MDMAdDelegate>)delegate parent:(UIViewController *)parent;
++ (void)loadAd:(CGRect)frame type:(MDMAdType)type loader:(MDMAdLoading)loader format:(NSString*)format screen:(NSString*)screen delegate:(id)delegate parent:(UIViewController *)parent;
 
 + (void)removeAd:(MDMAdType)type;
 

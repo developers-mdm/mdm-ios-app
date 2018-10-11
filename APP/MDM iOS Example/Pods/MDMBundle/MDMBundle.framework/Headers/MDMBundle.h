@@ -8,11 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-#import "MDMCore.h"
-#import "MDMGeoBehavior.h"
 #import "MDMAd.h"
+#import "MDMAdDelegate.h"
 #import "MDMAppBehavior.h"
+#import "MDMGeoBehavior.h"
 #import "MDMNotification.h"
+#import "MDMNotificationService.h"
+#import "MDMNotificationViewController.h"
 
 //! Project version number for MDMBundle.
 FOUNDATION_EXPORT double MDMBundleVersionNumber;
@@ -20,7 +22,7 @@ FOUNDATION_EXPORT double MDMBundleVersionNumber;
 //! Project version string for MDMBundle.
 FOUNDATION_EXPORT const unsigned char MDMBundleVersionString[];
 
-@interface MDMBundle : NSObject<MDMCoreDelegate>
+@interface MDMBundle : NSObject
 
 + (void)ignoreNotificationModule;
 

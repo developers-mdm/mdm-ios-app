@@ -7,6 +7,7 @@
 #import "AppDelegate.h"
 #import <sys/utsname.h>
 #import <MDMBundle/MDMBundle.h>
+#import <MDMCore/MDMCore.h>
 @import UserNotifications;
 
 @interface AppDelegate ()
@@ -17,6 +18,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    // Debug Mode
+    [MDMCore setDebugMode:YES];
+    
     // Start do Bundle com todos os módulos
     [MDMBundle start];
     
@@ -30,20 +34,27 @@
     // [MDMAd start];
     // [MDMNotification start];
     
+    
     if (@available(iOS 10.0, *)) {
         UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
         [center requestAuthorizationWithOptions:(UNAuthorizationOptionAlert + UNAuthorizationOptionBadge + UNAuthorizationOptionSound) completionHandler:^(BOOL granted, NSError * _Nullable error) {
             if (granted) {
-                dispatch_async(dispatch_get_main_queue(), ^(void){
-                    [application registerForRemoteNotifications];
-                });
+                [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+                    if (![application isRegisteredForRemoteNotifications]) {
+                        [application registerForRemoteNotifications];
+                        [MDMNotification start];
+                    }
+                }];
             }
         }];
     } else {
-        if ([[UIApplication sharedApplication] respondsToSelector:@selector(registerUserNotificationSettings:)]) {
+        if ([application respondsToSelector:@selector(registerUserNotificationSettings:)]) {
             UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAlert | UIUserNotificationTypeBadge | UIUserNotificationTypeSound categories:nil];
-            [UIApplication.sharedApplication registerUserNotificationSettings:settings];
-            [[UIApplication sharedApplication] registerForRemoteNotifications];
+            [application registerUserNotificationSettings:settings];
+            if (![application isRegisteredForRemoteNotifications]) {
+                [application registerForRemoteNotifications];
+                [MDMNotification start];
+            }
         }
     }
     
@@ -51,31 +62,20 @@
 }
 
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData*)deviceToken {
-    [MDMNotification registerTokenForPushNotification:deviceToken];
+    [MDMNotification registerToken:deviceToken];
 }
 
 - (void)application:(UIApplication *)app didFailToRegisterForRemoteNotificationsWithError:(NSError *)err {
-    [MDMNotification unregisterTokenForPushNotification];
+    [MDMNotification unregisterToken];
 }
 
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler {
-    [MDMNotification processNotification:userInfo];
+    if ([MDMNotification isMDMNotification:userInfo]) {
+        [MDMNotification processNotification:userInfo];
+    } else {
+        // Process your notification here
+    }
     completionHandler(UIBackgroundFetchResultNewData);
-}
-
-- (void)applicationWillResignActive:(UIApplication *)application {
-}
-
-- (void)applicationDidEnterBackground:(UIApplication *)application {
-}
-
-- (void)applicationWillEnterForeground:(UIApplication *)application {
-}
-
-- (void)applicationDidBecomeActive:(UIApplication *)application {
-}
-
-- (void)applicationWillTerminate:(UIApplication *)application {
 }
 
 @end
