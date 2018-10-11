@@ -34,29 +34,17 @@
     // [MDMAd start];
     // [MDMNotification start];
     
-    
-    if (@available(iOS 10.0, *)) {
-        UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
-        [center requestAuthorizationWithOptions:(UNAuthorizationOptionAlert + UNAuthorizationOptionBadge + UNAuthorizationOptionSound) completionHandler:^(BOOL granted, NSError * _Nullable error) {
-            if (granted) {
-                [[NSOperationQueue mainQueue] addOperationWithBlock:^{
-                    if (![application isRegisteredForRemoteNotifications]) {
-                        [application registerForRemoteNotifications];
-                        [MDMNotification start];
-                    }
-                }];
-            }
-        }];
-    } else {
-        if ([application respondsToSelector:@selector(registerUserNotificationSettings:)]) {
-            UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAlert | UIUserNotificationTypeBadge | UIUserNotificationTypeSound categories:nil];
-            [application registerUserNotificationSettings:settings];
-            if (![application isRegisteredForRemoteNotifications]) {
-                [application registerForRemoteNotifications];
-                [MDMNotification start];
-            }
+    UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
+    [center requestAuthorizationWithOptions:(UNAuthorizationOptionAlert + UNAuthorizationOptionBadge + UNAuthorizationOptionSound) completionHandler:^(BOOL granted, NSError * _Nullable error) {
+        if (granted) {
+            [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+                if (![application isRegisteredForRemoteNotifications]) {
+                    [application registerForRemoteNotifications];
+                    [MDMNotification start];
+                }
+            }];
         }
-    }
+    }];
     
     return YES;
 }
