@@ -10,7 +10,6 @@ Módulos disponíveis:
 
 * Geo Behavior
 * App Behavior
-* Ad
 * Notification
 
 
