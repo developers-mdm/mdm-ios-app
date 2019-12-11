@@ -20,12 +20,11 @@
 - (void)didReceiveNotificationRequest:(UNNotificationRequest *)request withContentHandler:(void (^)(UNNotificationContent * _Nonnull))contentHandler {
     self.contentHandler = contentHandler;
     self.bestAttemptContent = [request.content mutableCopy];
-    
+
     if ([MDMNotification isMDMNotification:self.bestAttemptContent.userInfo]) {
         [super didReceiveNotificationRequest:request withContentHandler:contentHandler];
     } else {
-        // Modify the notification content here...
-        
+        // Your code here
         self.contentHandler(self.bestAttemptContent);
     }
 }
@@ -34,6 +33,7 @@
     if ([MDMNotification isMDMNotification:self.bestAttemptContent.userInfo]) {
         [super serviceExtensionTimeWillExpire];
     } else {
+        // Your code here
         self.contentHandler(self.bestAttemptContent);
     }
 }

@@ -7,7 +7,7 @@
 //
 
 
-#import <MDMBundle/MDMBundle.h>
+#import <MDMNotification/MDMNotification.h>
 
 @interface NotificationService : MDMNotificationService
 

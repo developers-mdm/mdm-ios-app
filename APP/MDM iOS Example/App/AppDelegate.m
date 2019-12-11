@@ -5,12 +5,8 @@
 //
 
 #import "AppDelegate.h"
-#import <sys/utsname.h>
-#import <MDMBundle/MDMBundle.h>
-#import <MDMCore/MDMCore.h>
-@import UserNotifications;
 
-@interface AppDelegate ()
+@interface AppDelegate () <CLLocationManagerDelegate, UNUserNotificationCenterDelegate>
 
 @end
 
@@ -18,6 +14,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
     // Debug Mode
     [MDMCore setDebugMode:YES];
     
@@ -31,22 +28,39 @@
     // Start de cada módulo separadamente
     // [MDMGeoBehavior start];
     // [MDMAppBehavior start];
-    // [MDMAd start];
     // [MDMNotification start];
     
-    UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
-    [center requestAuthorizationWithOptions:(UNAuthorizationOptionAlert + UNAuthorizationOptionBadge + UNAuthorizationOptionSound) completionHandler:^(BOOL granted, NSError * _Nullable error) {
+    self.locationManager = [[CLLocationManager alloc] init];
+    self.locationManager.delegate = self;
+    switch ([CLLocationManager authorizationStatus]) {
+        case kCLAuthorizationStatusNotDetermined:
+        case kCLAuthorizationStatusRestricted:
+        case kCLAuthorizationStatusDenied:
+            [self.locationManager requestAlwaysAuthorization];
+            break;
+        default:
+            break;
+    }
+    
+    self.notificationCenter = [UNUserNotificationCenter currentNotificationCenter];
+    self.notificationCenter.delegate = self;
+    [self.notificationCenter requestAuthorizationWithOptions:(UNAuthorizationOptionAlert + UNAuthorizationOptionSound) completionHandler:^(BOOL granted, NSError * _Nullable error) {
         if (granted) {
             [[NSOperationQueue mainQueue] addOperationWithBlock:^{
                 if (![application isRegisteredForRemoteNotifications]) {
                     [application registerForRemoteNotifications];
-                    [MDMNotification start];
                 }
             }];
         }
     }];
     
     return YES;
+}
+
+- (void)locationManager:(CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status {
+    if (status == kCLAuthorizationStatusAuthorizedAlways || status == kCLAuthorizationStatusAuthorizedWhenInUse) {
+        [MDMGeoBehavior start];
+    }
 }
 
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData*)deviceToken {
@@ -57,13 +71,27 @@
     [MDMNotification unregisterToken];
 }
 
-- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler {
+- (void)userNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void (^)(void))completionHandler {
+    
+    NSDictionary *userInfo = response.notification.request.content.userInfo;
     if ([MDMNotification isMDMNotification:userInfo]) {
         [MDMNotification processNotification:userInfo];
     } else {
         // Process your notification here
     }
-    completionHandler(UIBackgroundFetchResultNewData);
+    completionHandler();
+    
+}
+
+- (void)userNotificationCenter:(UNUserNotificationCenter *)center willPresentNotification:(UNNotification *)notification withCompletionHandler:(void (^)(UNNotificationPresentationOptions))completionHandler {
+    
+    NSDictionary *userInfo = notification.request.content.userInfo;
+    if ([MDMNotification isMDMNotification:userInfo]) {
+        [MDMNotification processNotification:userInfo];
+    } else {
+        // Open your notification here
+    }
+    
 }
 
 @end

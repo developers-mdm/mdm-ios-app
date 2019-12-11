@@ -5,12 +5,16 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <UserNotifications/UserNotifications.h>
-#import <UserNotificationsUI/UserNotificationsUI.h>
+#import <MDMCore/MDMCore.h>
+#import <MDMBundle/MDMBundle.h>
+#import <MDMGeoBehavior/MDMGeoBehavior.h>
+#import <MDMNotification/MDMNotification.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate, UNUserNotificationCenterDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) CLLocationManager *locationManager;
+@property (strong, nonatomic) UNUserNotificationCenter *notificationCenter;
 
 @end
 

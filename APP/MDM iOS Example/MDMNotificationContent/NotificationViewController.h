@@ -6,8 +6,10 @@
 //  Copyright © 2018 Rogerio. All rights reserved.
 //
 
-#import <MDMBundle/MDMBundle.h>
+#import <MDMNotification/MDMNotification.h>
 
 @interface NotificationViewController : MDMNotificationViewController
+
+@property BOOL isHandsPush;
 
 @end
