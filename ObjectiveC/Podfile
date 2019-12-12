@@ -6,19 +6,19 @@ target 'MDM iOS Example' do
   # use_frameworks!
 
   # Pods for MDM iOS Example
-  pod 'MDMBundle', '3.3.6'
+  pod 'MDMBundle', '3.4.0'
 end
 
 target 'MDMNotificationService' do
     # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
     
     # Pods for NotificationPOC
-    pod 'MDMNotification', '3.3.6'
+    pod 'MDMNotification', '3.4.0'
 end
 
 target 'MDMNotificationContent' do
     # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
 
     # Pods for NotificationPOC
-    pod 'MDMNotification', '3.3.6'
+    pod 'MDMNotification', '3.4.0'
 end

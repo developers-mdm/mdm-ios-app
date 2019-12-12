@@ -2,10 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UIFileSharingEnabled</key>
-	<true/>
-	<key>NSGroupIdentifier</key>
-	<string>group.br.com.mdm.ios.sample</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -177,6 +173,8 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>NSGroupIdentifier</key>
+	<string>group.br.com.mdm.ios.sample</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>O aplicativo $(EXECUTABLE_NAME) usará a localização para otimizar a sua experiência.</string>
 	<key>NSLocationAlwaysUsageDescription</key>
@@ -185,6 +183,8 @@
 	<string>O aplicativo $(EXECUTABLE_NAME) usará a localização para otimizar a sua experiência.</string>
 	<key>NSMotionUsageDescription</key>
 	<string>O aplicativo $(EXECUTABLE_NAME) usará seus movimentos para otimizar a sua experiência.</string>
+	<key>UIFileSharingEnabled</key>
+	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

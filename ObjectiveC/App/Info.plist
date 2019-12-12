@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UIFileSharingEnabled</key>
-	<true/>
 	<key>AllowsBackgroundLocationUpdates</key>
 	<string>YES</string>
 	<key>CFBundleAllowMixedLocalizations</key>
@@ -195,6 +193,8 @@
 	<string>O aplicativo $(EXECUTABLE_NAME) usará a localização para otimizar a sua experiência.</string>
 	<key>NSMotionUsageDescription</key>
 	<string>O aplicativo $(EXECUTABLE_NAME) usará seus movimentos para otimizar a sua experiência.</string>
+	<key>UIFileSharingEnabled</key>
+	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>Main</string>
 	<key>UIMainStoryboardFile</key>

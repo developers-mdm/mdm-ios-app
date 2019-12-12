@@ -23,9 +23,21 @@
                                     <constraint firstAttribute="width" constant="272" id="mPu-NL-00w"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cbG-7i-lAL">
+                                <rect key="frame" x="160.5" y="431" width="93" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Open Inbox">
+                                    <color key="titleColor" red="0.7843137255" green="0.83137254900000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="openInbox:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z2v-vH-NBg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.19215686269999999" green="0.14901960780000001" blue="0.51372549020000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="cbG-7i-lAL" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Qj1-bD-hDz"/>
+                            <constraint firstItem="cbG-7i-lAL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="j2h-MV-phx"/>
                             <constraint firstItem="ZLr-hd-GLR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="44" id="k2W-wC-dHZ"/>
                             <constraint firstItem="ZLr-hd-GLR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="o6H-c9-C8H"/>
                         </constraints>

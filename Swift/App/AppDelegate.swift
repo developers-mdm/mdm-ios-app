@@ -62,6 +62,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
             }
         }
         
+        // Customização do Inbox
+        MDMInbox.setTitle("My Inbox")
+        MDMInbox.setNavigationBarColor("#312683")
+        MDMInbox.setTabBarColor("#312683")
+        MDMInbox.setTintColor("#C8D400")
+        MDMInbox.setBackgroundColor("#312683")
+        
         return true
     }
     

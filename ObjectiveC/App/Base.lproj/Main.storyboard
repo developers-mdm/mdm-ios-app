@@ -20,22 +20,34 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Powered By Hands" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YBz-WL-9un" userLabel="Powered By Hands">
-                                <rect key="frame" x="116" y="743" width="144" height="21"/>
+                                <rect key="frame" x="115" y="743" width="144" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="16"/>
                                 <color key="textColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="mdm_logo" translatesAutoresizingMaskIntoConstraints="NO" id="GiF-um-mF3">
-                                <rect key="frame" x="52" y="88" width="272" height="90"/>
+                                <rect key="frame" x="51.666666666666657" y="88" width="272" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="6fi-k9-zZi"/>
                                     <constraint firstAttribute="width" constant="272" id="oaC-fF-5gp"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iuo-PD-ITx">
+                                <rect key="frame" x="141" y="389" width="93" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Open Inbox">
+                                    <color key="titleColor" red="0.7843137255" green="0.83137254900000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="openInbox:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oUM-Uu-lhd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.19215686274509802" green="0.14901960784313725" blue="0.51372549019607838" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Iuo-PD-ITx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BYF-7X-C6W"/>
+                            <constraint firstItem="Iuo-PD-ITx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="PxP-t5-2BH"/>
                             <constraint firstItem="GiF-um-mF3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cVJ-X9-Aia"/>
                             <constraint firstItem="GiF-um-mF3" firstAttribute="top" secondItem="WJ6-aB-ceU" secondAttribute="bottom" constant="44" id="euh-l0-U3l"/>
                         </constraints>

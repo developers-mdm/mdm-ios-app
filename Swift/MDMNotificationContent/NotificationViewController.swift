@@ -12,8 +12,6 @@ class NotificationViewController: MDMNotificationViewController {
 
     @IBOutlet var label: UILabel?
     
-    private var isHandsPush: Bool!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any required interface initialization here.

@@ -5,6 +5,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MDMNotification/MDMNotification.h>
 
 @interface ViewController : UIViewController
 
