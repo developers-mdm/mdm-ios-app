@@ -4,14 +4,10 @@
 <dict>
 	<key>UIFileSharingEnabled</key>
 	<true/>
-	<key>AllowsBackgroundLocationUpdates</key>
-	<string>YES</string>
-	<key>CFBundleAllowMixedLocalizations</key>
-	<true/>
+	<key>NSGroupIdentifier</key>
+	<string>group.br.com.mdm.ios.sample</string>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>en</string>
-	<key>CFBundleDisplayName</key>
-	<string>MDM iOS Example</string>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -19,17 +15,13 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>MDM iOS Example</string>
+	<string>$(PRODUCT_NAME)</string>
 	<key>CFBundlePackageType</key>
-	<string>APPL</string>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
 	<key>CFBundleShortVersionString</key>
 	<string>$(MARKETING_VERSION)</string>
-	<key>CFBundleSignature</key>
-	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
-	<key>LSApplicationCategoryType</key>
-	<string></string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>airbnb</string>
@@ -185,8 +177,6 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
-	<key>NSGroupIdentifier</key>
-	<string>group.br.com.mdm.ios.sample</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>O aplicativo $(EXECUTABLE_NAME) usará a localização para otimizar a sua experiência.</string>
 	<key>NSLocationAlwaysUsageDescription</key>
@@ -196,9 +186,13 @@
 	<key>NSMotionUsageDescription</key>
 	<string>O aplicativo $(EXECUTABLE_NAME) usará seus movimentos para otimizar a sua experiência.</string>
 	<key>UILaunchStoryboardName</key>
-	<string>Main</string>
+	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
@@ -206,6 +200,9 @@
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 </dict>
 </plist>

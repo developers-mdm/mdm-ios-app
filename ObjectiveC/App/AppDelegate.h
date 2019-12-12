@@ -8,6 +8,7 @@
 #import <MDMCore/MDMCore.h>
 #import <MDMBundle/MDMBundle.h>
 #import <MDMGeoBehavior/MDMGeoBehavior.h>
+#import <MDMAppBehavior/MDMAppBehavior.h>
 #import <MDMNotification/MDMNotification.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
