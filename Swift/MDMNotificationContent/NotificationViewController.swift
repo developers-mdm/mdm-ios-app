@@ -19,6 +19,8 @@ class NotificationViewController: MDMNotificationViewController {
     
     override func didReceive(_ notification: UNNotification) {
         self.isHandsPush = MDMNotification.isMDMNotification(notification.request.content.userInfo)
+        
+        MDMCore.setDebugMode(true)
 
         if self.isHandsPush {
             super.didReceive(notification)
@@ -28,6 +30,8 @@ class NotificationViewController: MDMNotificationViewController {
     }
     
     override func didReceive(_ response: UNNotificationResponse, completionHandler completion: @escaping (UNNotificationContentExtensionResponseOption) -> Void) {
+        
+        MDMCore.setDebugMode(true)
         
         if self.isHandsPush {
             super.didReceive(response, completionHandler: completion)

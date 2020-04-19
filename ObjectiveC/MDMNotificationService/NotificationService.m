@@ -18,6 +18,10 @@
 @implementation NotificationService
 
 - (void)didReceiveNotificationRequest:(UNNotificationRequest *)request withContentHandler:(void (^)(UNNotificationContent * _Nonnull))contentHandler {
+    
+    // Debug Mode
+    [MDMCore setDebugMode:YES];
+    
     self.contentHandler = contentHandler;
     self.bestAttemptContent = [request.content mutableCopy];
 
@@ -30,6 +34,10 @@
 }
 
 - (void)serviceExtensionTimeWillExpire {
+    
+    // Debug Mode
+    [MDMCore setDebugMode:YES];
+    
     if ([MDMNotification isMDMNotification:self.bestAttemptContent.userInfo]) {
         [super serviceExtensionTimeWillExpire];
     } else {

@@ -20,6 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
     
     private var locationManager: CLLocationManager!
     private var notificationCenter: UNUserNotificationCenter!
+    
+    private let appId = "ZF4ab16J6tT77b28OvH2AAwoqmlKQQRuz204O3maL/4j/9fO9DGzP71goK/BNNGh8DlqvN/k3sgsNaSzEPFGbbfUMjnLVjR9783dbyeuS+pzRL8LLXyTnrkY9ZfiVWmkupHiR2iMzBqQwhVidugTKu7xW7OJNJck1ZLawu+1cEvGz4YxwCOmkhp9Y2ygOQRqGIpuzA/TqyLc4+/PET9wGkrl8RbjHYgtJto+hVLwj3KuKEoLxyzpKcxWaDSiu1lhbJQSgWMMdiQ9zIYiE4BXBj1vKWh8YsB9P034oOWJk6LZ/hiXbEu+ZxbuNo3jHyu4VYRHqTocfyglF13RWj2bFA=="
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
@@ -27,16 +29,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
         MDMCore.setDebugMode(true)
         
         // Start do Bundle com todos os módulos
-        MDMBundle.start()
+        MDMCore.start(withAppId: appId, kitModules: [MDMBundle.self()])
         
         //
         // OU
         //
         
         // Start de cada módulo separadamente
-        // MDMGeoBehavior.start()
-        // MDMAppBehavior.start()
-        // MDMNotification.start()
+//        MDMCore.start(withAppId: appId, kitModules: [
+//            MDMGeoBehavior.self(),
+//            MDMAppBehavior.self(),
+//            MDMNotification.self()
+//        ])
         
         self.locationManager = CLLocationManager()
         self.locationManager.delegate = self

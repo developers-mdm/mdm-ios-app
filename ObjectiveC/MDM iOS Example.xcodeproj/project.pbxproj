@@ -13,7 +13,6 @@
 		486E48871D2B23850002ED33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 486E48861D2B23850002ED33 /* ViewController.m */; };
 		486E488A1D2B23850002ED33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 486E48881D2B23850002ED33 /* Main.storyboard */; };
 		486E488C1D2B23850002ED33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 486E488B1D2B23850002ED33 /* Assets.xcassets */; };
-		486E48971D2B27540002ED33 /* MDMConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 486E48961D2B27540002ED33 /* MDMConfig.plist */; };
 		58FF2F6EB9ED455CD45A9552 /* libPods-MDMNotificationContent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2016C2E54D40B90A883A117 /* libPods-MDMNotificationContent.a */; };
 		824E982593EE89CA88A756DC /* libPods-MDM iOS Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C445AB531AB360DCA1548B /* libPods-MDM iOS Example.a */; };
 		8CEA12CD21417731005F789F /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEA12CC21417731005F789F /* NotificationService.m */; };
@@ -79,7 +78,6 @@
 		486E48891D2B23850002ED33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		486E488B1D2B23850002ED33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		486E48901D2B23850002ED33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		486E48961D2B27540002ED33 /* MDMConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MDMConfig.plist; sourceTree = "<group>"; };
 		6D646EE2BFCF29A9A82ECF79 /* Pods-MDM iOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDM iOS Example.release.xcconfig"; path = "Target Support Files/Pods-MDM iOS Example/Pods-MDM iOS Example.release.xcconfig"; sourceTree = "<group>"; };
 		89F6D7E5817A7EDAF052C4C8 /* libPods-MDMNotificationService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MDMNotificationService.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CCCAD6720659C8C00E00DBC /* MDM iOS Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "MDM iOS Example.entitlements"; sourceTree = "<group>"; };
@@ -165,7 +163,6 @@
 				486E48861D2B23850002ED33 /* ViewController.m */,
 				486E48881D2B23850002ED33 /* Main.storyboard */,
 				486E488B1D2B23850002ED33 /* Assets.xcassets */,
-				486E48961D2B27540002ED33 /* MDMConfig.plist */,
 				486E48901D2B23850002ED33 /* Info.plist */,
 				486E487F1D2B23850002ED33 /* Supporting Files */,
 			);
@@ -362,7 +359,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				486E48971D2B27540002ED33 /* MDMConfig.plist in Resources */,
 				486E488C1D2B23850002ED33 /* Assets.xcassets in Resources */,
 				486E488A1D2B23850002ED33 /* Main.storyboard in Resources */,
 			);
@@ -671,7 +667,7 @@
 					"$(PROJECT_DIR)/Smart",
 					"$(PROJECT_DIR)",
 				);
-				MARKETING_VERSION = 3.4.0;
+				MARKETING_VERSION = 3.6.0;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.mdm.ios.sample;
 				PRODUCT_NAME = "MDM iOS Example";
 				PROVISIONING_PROFILE = "";
@@ -702,7 +698,7 @@
 					"$(PROJECT_DIR)/Smart",
 					"$(PROJECT_DIR)",
 				);
-				MARKETING_VERSION = 3.4.0;
+				MARKETING_VERSION = 3.6.0;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.mdm.ios.sample;
 				PRODUCT_NAME = "MDM iOS Example";
 				PROVISIONING_PROFILE = "";
@@ -738,7 +734,7 @@
 				INFOPLIST_FILE = MDMNotificationService/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MARKETING_VERSION = 3.4.0;
+				MARKETING_VERSION = 3.6.0;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.mdm.ios.sample.MDMNotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -774,7 +770,7 @@
 				INFOPLIST_FILE = MDMNotificationService/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MARKETING_VERSION = 3.4.0;
+				MARKETING_VERSION = 3.6.0;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.mdm.ios.sample.MDMNotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -810,7 +806,7 @@
 				INFOPLIST_FILE = MDMNotificationContent/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MARKETING_VERSION = 3.4.0;
+				MARKETING_VERSION = 3.6.0;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.mdm.ios.sample.MDMNotificationContent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -846,7 +842,7 @@
 				INFOPLIST_FILE = MDMNotificationContent/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MARKETING_VERSION = 3.4.0;
+				MARKETING_VERSION = 3.6.0;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.mdm.ios.sample.MDMNotificationContent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

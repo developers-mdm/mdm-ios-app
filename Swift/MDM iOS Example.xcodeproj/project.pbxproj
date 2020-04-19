@@ -20,7 +20,6 @@
 		6DC3BA9923A26D0B00F950C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC3BA9723A26D0B00F950C3 /* Main.storyboard */; };
 		6DC3BA9B23A26D0E00F950C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC3BA9A23A26D0E00F950C3 /* Assets.xcassets */; };
 		6DC3BA9E23A26D0E00F950C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC3BA9C23A26D0E00F950C3 /* LaunchScreen.storyboard */; };
-		6DC3BAA823A26E8E00F950C3 /* MDMConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DC3BAA723A26E8E00F950C3 /* MDMConfig.plist */; };
 		87E29A7DEB22B0C88FE9D6B8 /* Pods_MDM_iOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CD71A0B530180FF768FD91 /* Pods_MDM_iOS_Example.framework */; };
 		FE0177C819C5E57F3F80A9BF /* Pods_MDMNotificationContent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9DBF630B690A7F13DCF3951 /* Pods_MDMNotificationContent.framework */; };
 /* End PBXBuildFile section */
@@ -78,7 +77,6 @@
 		6DC3BA9A23A26D0E00F950C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DC3BA9D23A26D0E00F950C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DC3BA9F23A26D0E00F950C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6DC3BAA723A26E8E00F950C3 /* MDMConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MDMConfig.plist; sourceTree = "<group>"; };
 		846EA1C38E3F3A3D651B4B1E /* Pods-MDMNotificationService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDMNotificationService.debug.xcconfig"; path = "Target Support Files/Pods-MDMNotificationService/Pods-MDMNotificationService.debug.xcconfig"; sourceTree = "<group>"; };
 		8D521630A28AED70D432E7FD /* Pods-MDMNotificationContent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDMNotificationContent.debug.xcconfig"; path = "Target Support Files/Pods-MDMNotificationContent/Pods-MDMNotificationContent.debug.xcconfig"; sourceTree = "<group>"; };
 		B9DBF630B690A7F13DCF3951 /* Pods_MDMNotificationContent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDMNotificationContent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -196,7 +194,6 @@
 				6DC3BA9723A26D0B00F950C3 /* Main.storyboard */,
 				6DC3BA9A23A26D0E00F950C3 /* Assets.xcassets */,
 				6DC3BA9C23A26D0E00F950C3 /* LaunchScreen.storyboard */,
-				6DC3BAA723A26E8E00F950C3 /* MDMConfig.plist */,
 				6DC3BA9F23A26D0E00F950C3 /* Info.plist */,
 			);
 			path = App;
@@ -325,7 +322,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DC3BA9E23A26D0E00F950C3 /* LaunchScreen.storyboard in Resources */,
-				6DC3BAA823A26E8E00F950C3 /* MDMConfig.plist in Resources */,
 				6DC3BA9B23A26D0E00F950C3 /* Assets.xcassets in Resources */,
 				6DC3BA9923A26D0B00F950C3 /* Main.storyboard in Resources */,
 			);

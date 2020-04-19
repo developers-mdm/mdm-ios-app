@@ -16,6 +16,8 @@ class NotificationService: MDMNotificationService {
     override func didReceive(_ request: UNNotificationRequest, withContentHandler contentHandler: @escaping (UNNotificationContent) -> Void) {
         self.contentHandler = contentHandler
         self.bestAttemptContent = (request.content.mutableCopy() as? UNMutableNotificationContent)
+        
+        MDMCore.setDebugMode(true)
 
         if let bestAttemptContent = self.bestAttemptContent {
             if MDMNotification.isMDMNotification(bestAttemptContent.userInfo) {
@@ -28,6 +30,9 @@ class NotificationService: MDMNotificationService {
     }
     
     override func serviceExtensionTimeWillExpire() {
+        
+        MDMCore.setDebugMode(true)
+        
         if let contentHandler = self.contentHandler, let bestAttemptContent = self.bestAttemptContent {
             if MDMNotification.isMDMNotification(bestAttemptContent.userInfo) {
                 super.serviceExtensionTimeWillExpire()

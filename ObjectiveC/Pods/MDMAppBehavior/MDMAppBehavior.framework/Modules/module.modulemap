@@ -1,0 +1,6 @@
+framework module MDMAppBehavior {
+  umbrella header "MDMAppBehavior.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module MDMGeoBehavior {
+  umbrella header "MDMGeoBehavior.h"
+
+  export *
+  module * { export * }
+}

@@ -17,6 +17,9 @@
 
 - (void)didReceiveNotification:(UNNotification *)notification {
     self.isHandsPush = [MDMNotification isMDMNotification:notification.request.content.userInfo];
+    
+    // Debug Mode
+    [MDMCore setDebugMode:YES];
 
     if (self.isHandsPush) {
         [super didReceiveNotification:notification];
@@ -26,6 +29,9 @@
 }
 
 - (void)didReceiveNotificationResponse:(UNNotificationResponse *)response completionHandler:(void (^)(UNNotificationContentExtensionResponseOption))completion {
+    
+    // Debug Mode
+    [MDMCore setDebugMode:YES];
     
     if (self.isHandsPush) {
         [super didReceiveNotificationResponse:response completionHandler:completion];

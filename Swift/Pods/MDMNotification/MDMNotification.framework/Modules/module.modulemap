@@ -1,0 +1,6 @@
+framework module MDMNotification {
+  umbrella header "MDMNotification.h"
+
+  export *
+  module * { export * }
+}

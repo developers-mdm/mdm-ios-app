@@ -1,0 +1,6 @@
+framework module Pods_MDMNotificationService {
+  umbrella header "Pods-MDMNotificationService-umbrella.h"
+
+  export *
+  module * { export * }
+}

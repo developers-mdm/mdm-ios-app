@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-MDM iOS Example/Pods-MDM iOS Example-frameworks.sh
+${PODS_ROOT}/MDMAppBehavior/MDMAppBehavior.framework
+${PODS_ROOT}/MDMBundle/MDMBundle.framework
+${PODS_ROOT}/MDMCore/MDMCore.framework
+${PODS_ROOT}/MDMGeoBehavior/MDMGeoBehavior.framework
+${PODS_ROOT}/MDMNotification/MDMNotification.framework
