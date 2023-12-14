@@ -1,44 +1,32 @@
 PODS:
-  - MDMAppBehavior (3.6.0):
-    - MDMAppBehavior/MDM (= 3.6.0)
-  - MDMAppBehavior/MDM (3.6.0):
-    - MDMCore (= 3.6.0)
   - MDMBundle (3.6.0):
-    - MDMBundle/MDM (= 3.6.0)
-  - MDMBundle/MDM (3.6.0):
-    - MDMAppBehavior (= 3.6.0)
-    - MDMCore (= 3.6.0)
-    - MDMGeoBehavior (= 3.6.0)
-    - MDMNotification (= 3.6.0)
-  - MDMCore (3.6.0)
-  - MDMGeoBehavior (3.6.0):
-    - MDMGeoBehavior/MDM (= 3.6.0)
-  - MDMGeoBehavior/MDM (3.6.0):
-    - MDMCore (= 3.6.0)
-  - MDMNotification (3.6.0):
-    - MDMNotification/MDM (= 3.6.0)
-  - MDMNotification/MDM (3.6.0):
-    - MDMCore (= 3.6.0)
+    - MDMBundle/Release (= 3.6.0)
+  - MDMBundle/Release (3.6.0)
+  - MDMCore (0.0.2):
+    - MDMCore/Release (= 0.0.2)
+  - MDMCore/Release (0.0.2)
+  - MDMNotification (3.6.1):
+    - MDMNotification/Release (= 3.6.1)
+  - MDMNotification/Release (3.6.1)
 
 DEPENDENCIES:
-  - MDMBundle (= 3.6.0)
-  - MDMNotification (= 3.6.0)
+  - MDMBundle (from `/Users/phelipelopes/Documents/github/test`)
+  - MDMCore (from `/Users/phelipelopes/Documents/github/test`)
+  - MDMNotification (from `/Users/phelipelopes/Documents/github/test`)
 
-SPEC REPOS:
-  trunk:
-    - MDMAppBehavior
-    - MDMBundle
-    - MDMCore
-    - MDMGeoBehavior
-    - MDMNotification
+EXTERNAL SOURCES:
+  MDMBundle:
+    :path: "/Users/phelipelopes/Documents/github/test"
+  MDMCore:
+    :path: "/Users/phelipelopes/Documents/github/test"
+  MDMNotification:
+    :path: "/Users/phelipelopes/Documents/github/test"
 
 SPEC CHECKSUMS:
-  MDMAppBehavior: e9ded870703d6c7c60b8b30ccb9fac4e16d2b827
-  MDMBundle: d2d7d9674253c457b50444de087fd2c9a90c3556
-  MDMCore: f5155d919e732489a8bf8a9392774cb63e35e553
-  MDMGeoBehavior: b608fbfaec89731fa030ebe5593729f5f55b153c
-  MDMNotification: ce7bab78a27421ee0b5f061d058c4b9326cbc10e
+  MDMBundle: fa66fab33f5b08aea97552ccf08cf598ae9a4e5c
+  MDMCore: 3b1001db3989a1c4eed1ef452f5cce3a7dc1af5f
+  MDMNotification: 3669324ce97cef732b985d2b363c3db786475dcd
 
-PODFILE CHECKSUM: 6ddde7279f791162a72f17251601d1a8f3faef8b
+PODFILE CHECKSUM: 5d8ff390ebbe722d98cd6e4ad0e8a1829d2dbd8d
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.11.3

@@ -184,7 +184,7 @@
 		<true/>
 	</dict>
 	<key>NSGroupIdentifier</key>
-	<string>group.br.com.mdm.ios.sample</string>
+	<string>group.br.com.mdm.ios.sample2</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>O aplicativo $(EXECUTABLE_NAME) usará a localização para otimizar a sua experiência.</string>
 	<key>NSLocationAlwaysUsageDescription</key>

@@ -33,30 +33,30 @@
 //        [MDMNotification self]
 //    ]];
     
-    self.locationManager = [[CLLocationManager alloc] init];
-    self.locationManager.delegate = self;
-    switch ([CLLocationManager authorizationStatus]) {
-        case kCLAuthorizationStatusNotDetermined:
-        case kCLAuthorizationStatusRestricted:
-        case kCLAuthorizationStatusDenied:
-            [self.locationManager requestAlwaysAuthorization];
-            break;
-        default:
-            break;
-    }
+//    self.locationManager = [[CLLocationManager alloc] init];
+//    self.locationManager.delegate = self;
+//    switch ([CLLocationManager authorizationStatus]) {
+//        case kCLAuthorizationStatusNotDetermined:
+//        case kCLAuthorizationStatusRestricted:
+//        case kCLAuthorizationStatusDenied:
+//            [self.locationManager requestAlwaysAuthorization];
+//            break;
+//        default:
+//            break;
+//    }
     
     self.notificationCenter = [UNUserNotificationCenter currentNotificationCenter];
     self.notificationCenter.delegate = self;
     [self.notificationCenter requestAuthorizationWithOptions:(UNAuthorizationOptionAlert + UNAuthorizationOptionSound) completionHandler:^(BOOL granted, NSError * _Nullable error) {
         if (granted) {
             [[NSOperationQueue mainQueue] addOperationWithBlock:^{
-                if (![application isRegisteredForRemoteNotifications]) {
+         //       if (![application isRegisteredForRemoteNotifications]) {
                     [application registerForRemoteNotifications];
-                }
+           //     }
             }];
         }
     }];
-    
+   
     // Customização do Inbox
     [MDMInbox setTitle:@"My Inbox"];
     [MDMInbox setNavigationBarColor:@"#312683"];
@@ -67,11 +67,11 @@
     return YES;
 }
 
-- (void)locationManager:(CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status {
-    if (status == kCLAuthorizationStatusAuthorizedAlways || status == kCLAuthorizationStatusAuthorizedWhenInUse) {
-        [MDMGeoBehavior start];
-    }
-}
+//- (void)locationManager:(CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status {
+//    if (status == kCLAuthorizationStatusAuthorizedAlways || status == kCLAuthorizationStatusAuthorizedWhenInUse) {
+//        [MDMGeoBehavior start];
+//    }
+//}
 
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData*)deviceToken {
     [MDMNotification registerToken:deviceToken];
@@ -89,7 +89,7 @@
     } else {
         // Process your notification here
     }
-    completionHandler();
+    
     
 }
 

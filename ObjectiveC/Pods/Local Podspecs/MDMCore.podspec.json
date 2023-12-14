@@ -1,0 +1,26 @@
+{
+  "name": "MDMCore",
+  "version": "0.0.2",
+  "summary": "Sample Spec",
+  "homepage": "https://www.google.com",
+  "authors": {
+    "Sample": "sample@sample.com"
+  },
+  "license": {
+    "type": "MIT",
+    "text": "MIT License"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "http": "http://localhost:8080/XCFrameworkTest.zip"
+  },
+  "default_subspecs": "Release",
+  "subspecs": [
+    {
+      "name": "Release",
+      "vendored_frameworks": "MDMCore.xcframework"
+    }
+  ]
+}
