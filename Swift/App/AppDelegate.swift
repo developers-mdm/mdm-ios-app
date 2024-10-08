@@ -7,6 +7,10 @@
 //
 
 import UIKit
+import CoreLocation
+import AppTrackingTransparency
+
+// Hands MDM imports
 import MDMCore
 import MDMBundle
 import MDMGeoBehavior
@@ -14,72 +18,101 @@ import MDMAppBehavior
 import MDMNotification
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate, UNUserNotificationCenterDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate {
+    private var notificationCenter = UNUserNotificationCenter.current()
+    private var locationManager = CLLocationManager()
 
     var window: UIWindow?
     
-    private var locationManager: CLLocationManager!
-    private var notificationCenter: UNUserNotificationCenter!
-    
-    private let appId = "ZF4ab16J6tT77b28OvH2AAwoqmlKQQRuz204O3maL/4j/9fO9DGzP71goK/BNNGh8DlqvN/k3sgsNaSzEPFGbbfUMjnLVjR9783dbyeuS+pzRL8LLXyTnrkY9ZfiVWmkupHiR2iMzBqQwhVidugTKu7xW7OJNJck1ZLawu+1cEvGz4YxwCOmkhp9Y2ygOQRqGIpuzA/TqyLc4+/PET9wGkrl8RbjHYgtJto+hVLwj3KuKEoLxyzpKcxWaDSiu1lhbJQSgWMMdiQ9zIYiE4BXBj1vKWh8YsB9P034oOWJk6LZ/hiXbEu+ZxbuNo3jHyu4VYRHqTocfyglF13RWj2bFA=="
+    private let appId = "YOU_APP_ID"
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        notificationCenter.delegate = self
+        locationManager.delegate = self
         
         // Debug Mode
         MDMCore.setDebugMode(true)
         
-        // Start do Bundle com todos os módulos
+        return true
+    }
+    
+    func applicationDidBecomeActive(_ application: UIApplication) {
+        Task {
+            if await ATTrackingManager.requestTrackingAuthorization() == .authorized {
+                // Start do Bundle com todos os módulos
+                MDMCore.start(withAppId: appId, kitModules: [MDMBundle.self()])
+                
+                //
+                // OU
+                //
+                
+                // Start dos módulos separadamente
+//                MDMCore.start(withAppId: appId, kitModules: [
+//                    MDMGeoBehavior.self(),
+//                    MDMAppBehavior.self(),
+//                    MDMNotification.self()
+//                ])
+                
+                // MDM Notification
+                do {
+                    let granted = try await notificationCenter.requestAuthorization(options: [.alert, .badge, .sound])
+                    if granted {
+                        MDMInbox.setTitle("Hands Inbox")
+                        MDMInbox.setNavigationBarColor("#312683")
+                        MDMInbox.setBackgroundColor("#312683")
+                        MDMInbox.setTabBarColor("#312683")
+                        MDMInbox.setTintColor("#C8D400")
+                        
+                        DispatchQueue.main.async {
+                            application.registerForRemoteNotifications()
+                        }
+                    }
+                } catch { }
+                
+                // MDM Geo
+                switch self.locationManager.authorizationStatus {
+                case .notDetermined, .denied, .restricted:
+                    self.locationManager.requestAlwaysAuthorization()
+                    break
+                case .authorizedAlways, .authorizedWhenInUse:
+                    break
+                default:
+                    break
+                }
+            }
+        }
+    }
+    
+    func applicationDidEnterBackground(_ application: UIApplication) {
+        // MDM Init
         MDMCore.start(withAppId: appId, kitModules: [MDMBundle.self()])
         
         //
         // OU
         //
         
-        // Start de cada módulo separadamente
+        // Start dos módulos separadamente
 //        MDMCore.start(withAppId: appId, kitModules: [
 //            MDMGeoBehavior.self(),
 //            MDMAppBehavior.self(),
 //            MDMNotification.self()
 //        ])
-        
-        self.locationManager = CLLocationManager()
-        self.locationManager.delegate = self
-        switch CLLocationManager.authorizationStatus() {
-        case .notDetermined, .denied, .restricted:
-            self.locationManager.requestAlwaysAuthorization()
-            break
-        case .authorizedAlways, .authorizedWhenInUse:
-            break
-        default:
-            break
-        }
-        
-        self.notificationCenter = UNUserNotificationCenter.current()
-        self.notificationCenter.delegate = self
-        self.notificationCenter.requestAuthorization(options: [.alert, .sound]) { (granted, error) in
-            if granted {
-                OperationQueue.main.addOperation({
-                    if !UIApplication.shared.isRegisteredForRemoteNotifications {
-                        UIApplication.shared.registerForRemoteNotifications()
-                    }
-                })
-            }
-        }
-        
-        // Customização do Inbox
-        MDMInbox.setTitle("My Inbox")
-        MDMInbox.setNavigationBarColor("#312683")
-        MDMInbox.setTabBarColor("#312683")
-        MDMInbox.setTintColor("#C8D400")
-        MDMInbox.setBackgroundColor("#312683")
-        
-        return true
     }
     
-    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
-        if status == .authorizedAlways || status == .authorizedWhenInUse {
-            MDMGeoBehavior.start()
-        }
+    func applicationWillTerminate(_ application: UIApplication) {
+        // MDM Init
+        MDMCore.start(withAppId: appId, kitModules: [MDMBundle.self()])
+        
+        //
+        // OU
+        //
+        
+        // Start dos módulos separadamente
+//        MDMCore.start(withAppId: appId, kitModules: [
+//            MDMGeoBehavior.self(),
+//            MDMAppBehavior.self(),
+//            MDMNotification.self()
+//        ])
     }
     
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
@@ -89,29 +122,37 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
     func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
         MDMNotification.unregisterToken()
     }
-    
-    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
-        
+}
+
+extension AppDelegate: UNUserNotificationCenterDelegate {
+    func userNotificationCenter(_ center: UNUserNotificationCenter,
+                                didReceive response: UNNotificationResponse,
+                                withCompletionHandler completionHandler: @escaping () -> Void) {
         let userInfo = response.notification.request.content.userInfo
         if MDMNotification.isMDMNotification(userInfo) {
-            MDMNotification.processNotification(userInfo)
+            MDMNotification.receive(userInfo)
         } else {
             // Process your notification here
         }
         completionHandler();
-        
     }
     
-    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
-        
+    func userNotificationCenter(_ center: UNUserNotificationCenter,
+                                willPresent notification: UNNotification,
+                                withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
         let userInfo = notification.request.content.userInfo
         if MDMNotification.isMDMNotification(userInfo) {
-            MDMNotification.processNotification(userInfo)
+            MDMNotification.processNotification(userInfo, completionBlock: completionHandler)
         } else {
             // Open your notification here
         }
-        
     }
-    
 }
 
+extension AppDelegate: CLLocationManagerDelegate {
+    func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
+        if manager.authorizationStatus == .authorizedAlways || manager.authorizationStatus == .authorizedWhenInUse {
+            MDMGeoBehavior.start()
+        }
+    }
+}

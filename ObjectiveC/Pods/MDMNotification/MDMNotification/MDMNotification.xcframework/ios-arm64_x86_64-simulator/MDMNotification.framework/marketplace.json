@@ -1,0 +1,45 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Airfryer Viva Philips Walita",
+      "body": "Com a fritadeira elétrica Airfryer Viva PHILIPS WALITA você pode saborear refeições deliciosas, suculentas e mais nutritivas, de um jeito mais fácil, rápido e seguro no conforto de casa, sem precisar pedir delivery!",
+      "dateEnd": "2023-12-31T0:00:00-0300",
+      "logo": "https://i.imgur.com/45lIKH1.png",
+      "priceCurrency": "R$",
+      "priceAmount": "1128.49",
+      "priceDescription": "à vista no cartão",
+      "paymentConditions": [
+        {
+          "description": "à vista no PIX com 5% de desconto",
+          "currency": "R$",
+          "amount": "999.99"
+        },
+        {
+          "description": "em 12x sem juros no cartão",
+          "currency": "R$",
+          "amount": "98.99"
+        }
+      ],
+      "content": {
+        "highlight": false,
+        "url": "https://www.casasbahia.com.br",
+        "label": "COMPRAR",
+        "gallery": [
+          {
+            "id": 1,
+            "picture": "https://i.imgur.com/fR97iVQ.jpeg",
+            "caption": "compre agora",
+            "url": "https://www.casasbahia.com.br"
+          },
+          {
+            "id": 2,
+            "picture": "https://i.imgur.com/dJE4Gg1.gif",
+            "caption": "compre agora",
+            "url": "https://www.casasbahia.com.br"
+          }
+        ]
+      }
+    }
+  ]
+}

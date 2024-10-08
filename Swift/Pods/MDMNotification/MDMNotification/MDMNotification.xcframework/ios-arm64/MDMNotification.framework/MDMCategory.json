@@ -1,0 +1,134 @@
+[
+  {
+    "id": "1",
+    "name": "Automóveis"
+  },
+  {
+    "id": "4",
+    "name": "Beleza"
+  },
+  {
+    "id": "5",
+    "name": "Bens de Consumo"
+  },
+  {
+    "id": "6",
+    "name": "Bebidas Alcoólicas"
+  },
+  {
+    "id": "7",
+    "name": "Bebidas Não Alcoólicas"
+  },
+  {
+    "id": "8",
+    "name": "Construção"
+  },
+  {
+    "id": "9",
+    "name": "Educação"
+  },
+  {
+    "id": "10",
+    "name": "Saúde"
+  },
+  {
+    "id": "11",
+    "name": "Agro"
+  },
+  {
+    "id": "12",
+    "name": "Moda"
+  },
+  {
+    "id": "14",
+    "name": "Financeiro"
+  },
+  {
+    "id": "15",
+    "name": "Governo"
+  },
+  {
+    "id": "16",
+    "name": "Alimentício"
+  },
+  {
+    "id": "17",
+    "name": "Eletrônicos"
+  },
+  {
+    "id": "18",
+    "name": "Tecnologia"
+  },
+  {
+    "id": "19",
+    "name": "Companhias Aéreas"
+  },
+  {
+    "id": "20",
+    "name": "Mobilidade"
+  },
+  {
+    "id": "21",
+    "name": "Casa & Construção"
+  },
+  {
+    "id": "22",
+    "name": "Decoração"
+  },
+  {
+    "id": "23",
+    "name": "Higiene"
+  },
+  {
+    "id": "25",
+    "name": "Esportes"
+  },
+  {
+    "id": "26",
+    "name": "Varejo"
+  },
+  {
+    "id": "27",
+    "name": "Entretenimento"
+  },
+  {
+    "id": "28",
+    "name": "Industrias"
+  },
+  {
+    "id": "29",
+    "name": "Concessionárias"
+  },
+  {
+    "id": "30",
+    "name": "Seguros"
+  },
+  {
+    "id": "31",
+    "name": "Telefonia"
+  },
+  {
+    "id": "32",
+    "name": "Farmacêutico"
+  },
+  {
+    "id": "33",
+    "name": "Serviço"
+  },
+  {
+    "id": "34",
+    "name": "Transporte"
+  },
+  {
+    "id": "35",
+    "name": "Turismo"
+  },
+  {
+    "id": "36",
+    "name": "Veículo/Mídia"
+  },
+  {
+    "id": "37",
+    "name": "Outros"
+  }
+]

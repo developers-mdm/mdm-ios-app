@@ -1,28 +1,29 @@
 PODS:
-  - MDMAppBehavior (3.6.0):
-    - MDMAppBehavior/MDM (= 3.6.0)
-  - MDMAppBehavior/MDM (3.6.0):
-    - MDMCore (= 3.6.0)
-  - MDMBundle (3.6.0):
-    - MDMBundle/MDM (= 3.6.0)
-  - MDMBundle/MDM (3.6.0):
-    - MDMAppBehavior (= 3.6.0)
-    - MDMCore (= 3.6.0)
-    - MDMGeoBehavior (= 3.6.0)
-    - MDMNotification (= 3.6.0)
-  - MDMCore (3.6.0)
-  - MDMGeoBehavior (3.6.0):
-    - MDMGeoBehavior/MDM (= 3.6.0)
-  - MDMGeoBehavior/MDM (3.6.0):
-    - MDMCore (= 3.6.0)
-  - MDMNotification (3.6.0):
-    - MDMNotification/MDM (= 3.6.0)
-  - MDMNotification/MDM (3.6.0):
-    - MDMCore (= 3.6.0)
+  - MDMAppBehavior (3.9.14):
+    - MDMAppBehavior/MDM (= 3.9.14)
+  - MDMAppBehavior/MDM (3.9.14):
+    - MDMCore (= 3.9.14)
+  - MDMBundle (3.9.14):
+    - MDMBundle/MDM (= 3.9.14)
+  - MDMBundle/MDM (3.9.14):
+    - MDMAppBehavior (= 3.9.14)
+    - MDMCore (= 3.9.14)
+    - MDMGeoBehavior (= 3.9.14)
+    - MDMNotification (= 3.9.14)
+  - MDMCore (3.9.14)
+  - MDMGeoBehavior (3.9.14):
+    - MDMGeoBehavior/MDM (= 3.9.14)
+  - MDMGeoBehavior/MDM (3.9.14):
+    - MDMCore (= 3.9.14)
+  - MDMNotification (3.9.14):
+    - MDMNotification/MDM (= 3.9.14)
+  - MDMNotification/MDM (3.9.14):
+    - MDMCore (= 3.9.14)
 
 DEPENDENCIES:
-  - MDMBundle (= 3.6.0)
-  - MDMNotification (= 3.6.0)
+  - MDMBundle (= 3.9.14)
+  - MDMCore (= 3.9.14)
+  - MDMNotification (= 3.9.14)
 
 SPEC REPOS:
   trunk:
@@ -33,12 +34,12 @@ SPEC REPOS:
     - MDMNotification
 
 SPEC CHECKSUMS:
-  MDMAppBehavior: e9ded870703d6c7c60b8b30ccb9fac4e16d2b827
-  MDMBundle: d2d7d9674253c457b50444de087fd2c9a90c3556
-  MDMCore: f5155d919e732489a8bf8a9392774cb63e35e553
-  MDMGeoBehavior: b608fbfaec89731fa030ebe5593729f5f55b153c
-  MDMNotification: ce7bab78a27421ee0b5f061d058c4b9326cbc10e
+  MDMAppBehavior: 272d8728b1176e519fd65a23374d030280acb7ba
+  MDMBundle: a1ee752b4cb652ba001582826484be57daeb347b
+  MDMCore: 7892b84df7deb50dabcfd31482c9e05ea5f84d30
+  MDMGeoBehavior: 504b90281f37ae9a5f64ca88d1c7331692ccad08
+  MDMNotification: 46a06a9145004aaa681f996dd965d0269b48261d
 
-PODFILE CHECKSUM: 6ddde7279f791162a72f17251601d1a8f3faef8b
+PODFILE CHECKSUM: 02c29ebe4ad33fddef277f0df1d2c0c2ec2d9205
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.15.2

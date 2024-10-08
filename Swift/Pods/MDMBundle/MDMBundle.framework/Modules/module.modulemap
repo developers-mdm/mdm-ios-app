@@ -1,6 +1,0 @@
-framework module MDMBundle {
-  umbrella header "MDMBundle.h"
-
-  export *
-  module * { export * }
-}

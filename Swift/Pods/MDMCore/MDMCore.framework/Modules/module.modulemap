@@ -1,6 +1,0 @@
-framework module MDMCore {
-  umbrella header "MDMCore.h"
-
-  export *
-  module * { export * }
-}

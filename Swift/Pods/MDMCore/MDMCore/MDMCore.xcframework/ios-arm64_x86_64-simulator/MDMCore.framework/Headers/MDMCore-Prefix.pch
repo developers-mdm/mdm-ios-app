@@ -1,0 +1,22 @@
+//
+//  MDMCore-Prefix.pch
+//  MDMCore
+//
+//  Created by Robson Moreira on 11/02/19.
+//  Copyright © 2019 Hands. All rights reserved.
+//
+
+#ifndef MDMCore_Prefix_pch
+#define MDMCore_Prefix_pch
+
+#import "MDMCore.h"
+#import "MDMUtils.h"
+#import "MDMConstants.h"
+#import "MDMLogHandler.h"
+#import "MDMDatabase.h"
+#import "NSString+Additions.h"
+#import "NSDate+Additions.h"
+#import "NSArray+Additions.h"
+#import "NSDictionary+Additions.h"
+
+#endif /* MDMCore_Prefix_pch */

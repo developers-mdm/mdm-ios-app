@@ -1,0 +1,11 @@
+framework module MDMNotification {
+  umbrella header "MDMNotification.h"
+  export *
+
+  module * { export * }
+}
+
+module MDMNotification.Swift {
+  header "MDMNotification-Swift.h"
+  requires objc
+}

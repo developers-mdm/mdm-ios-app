@@ -5,6 +5,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import <AppTrackingTransparency/AppTrackingTransparency.h>
+
+// Hands MDM imports
 #import <MDMCore/MDMCore.h>
 #import <MDMBundle/MDMBundle.h>
 #import <MDMGeoBehavior/MDMGeoBehavior.h>

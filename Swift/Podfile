@@ -1,12 +1,12 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '10.0'
+platform :ios, '14.0'
 
 target 'MDM iOS Example' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
   # Pods for MDM iOS Example
-  pod 'MDMBundle', '3.6.0'
+  pod 'MDMBundle', '3.9.14'
 
 end
 
@@ -15,7 +15,8 @@ target 'MDMNotificationService' do
     use_frameworks!
     
     # Pods for NotificationPOC
-    pod 'MDMNotification', '3.6.0'
+    pod 'MDMCore', '3.9.14'
+    pod 'MDMNotification', '3.9.14'
 end
 
 target 'MDMNotificationContent' do
@@ -23,6 +24,7 @@ target 'MDMNotificationContent' do
     use_frameworks!
     
     # Pods for NotificationPOC
-    pod 'MDMNotification', '3.6.0'
+    pod 'MDMCore', '3.9.14'
+    pod 'MDMNotification', '3.9.14'
     
 end

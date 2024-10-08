@@ -1,0 +1,1051 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "MDMNotification",
+    "printedName": "MDMNotification",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CouponsTableViewController",
+        "printedName": "CouponsTableViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MDMNotification@objc(cs)CouponsTableViewController(im)viewDidLoad",
+            "mangledName": "$s15MDMNotification26CouponsTableViewControllerC11viewDidLoadyyF",
+            "moduleName": "MDMNotification",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tableView",
+            "printedName": "tableView(_:cellForRowAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UITableViewCell",
+                "printedName": "UIKit.UITableViewCell",
+                "usr": "c:objc(cs)UITableViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MDMNotification@objc(cs)CouponsTableViewController(im)tableView:cellForRowAtIndexPath:",
+            "mangledName": "$s15MDMNotification26CouponsTableViewControllerC05tableD0_12cellForRowAtSo07UITableD4CellCSo0kD0C_10Foundation9IndexPathVtF",
+            "moduleName": "MDMNotification",
+            "overriding": true,
+            "objc_name": "tableView:cellForRowAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tableView",
+            "printedName": "tableView(_:numberOfRowsInSection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MDMNotification@objc(cs)CouponsTableViewController(im)tableView:numberOfRowsInSection:",
+            "mangledName": "$s15MDMNotification26CouponsTableViewControllerC05tableD0_21numberOfRowsInSectionSiSo07UITableD0C_SitF",
+            "moduleName": "MDMNotification",
+            "overriding": true,
+            "objc_name": "tableView:numberOfRowsInSection:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tableView",
+            "printedName": "tableView(_:didSelectRowAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MDMNotification@objc(cs)CouponsTableViewController(im)tableView:didSelectRowAtIndexPath:",
+            "mangledName": "$s15MDMNotification26CouponsTableViewControllerC05tableD0_14didSelectRowAtySo07UITableD0C_10Foundation9IndexPathVtF",
+            "moduleName": "MDMNotification",
+            "overriding": true,
+            "objc_name": "tableView:didSelectRowAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(style:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CouponsTableViewController",
+                "printedName": "MDMNotification.CouponsTableViewController",
+                "usr": "c:@M@MDMNotification@objc(cs)CouponsTableViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Style",
+                "printedName": "UIKit.UITableView.Style",
+                "usr": "c:@E@UITableViewStyle"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MDMNotification@objc(cs)CouponsTableViewController(im)initWithStyle:",
+            "mangledName": "$s15MDMNotification26CouponsTableViewControllerC5styleACSo07UITableD5StyleV_tcfc",
+            "moduleName": "MDMNotification",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithStyle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CouponsTableViewController",
+                "printedName": "MDMNotification.CouponsTableViewController",
+                "usr": "c:@M@MDMNotification@objc(cs)CouponsTableViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MDMNotification@objc(cs)CouponsTableViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s15MDMNotification26CouponsTableViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "MDMNotification",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MDMNotification.CouponsTableViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CouponsTableViewController",
+                    "printedName": "MDMNotification.CouponsTableViewController",
+                    "usr": "c:@M@MDMNotification@objc(cs)CouponsTableViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MDMNotification@objc(cs)CouponsTableViewController(im)initWithCoder:",
+            "mangledName": "$s15MDMNotification26CouponsTableViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "MDMNotification",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MDMNotification@objc(cs)CouponsTableViewController",
+        "mangledName": "$s15MDMNotification26CouponsTableViewControllerC",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UITableViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UITableViewController",
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ImageIO",
+        "printedName": "ImageIO",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIImage",
+        "printedName": "UIImage",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "gifImageWithData",
+            "printedName": "gifImageWithData(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIImageC15MDMNotificationE16gifImageWithDatayABSg10Foundation0F0VFZ",
+            "mangledName": "$sSo7UIImageC15MDMNotificationE16gifImageWithDatayABSg10Foundation0F0VFZ",
+            "moduleName": "MDMNotification",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "gifImageWithURL",
+            "printedName": "gifImageWithURL(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIImageC15MDMNotificationE15gifImageWithURLyABSgSSFZ",
+            "mangledName": "$sSo7UIImageC15MDMNotificationE15gifImageWithURLyABSgSSFZ",
+            "moduleName": "MDMNotification",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "gifImageWithName",
+            "printedName": "gifImageWithName(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIImageC15MDMNotificationE16gifImageWithNameyABSgSSFZ",
+            "mangledName": "$sSo7UIImageC15MDMNotificationE16gifImageWithNameyABSgSSFZ",
+            "moduleName": "MDMNotification",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIImage",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIImage",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByImageLiteral",
+            "printedName": "_ExpressibleByImageLiteral",
+            "usr": "s:s26_ExpressibleByImageLiteralP",
+            "mangledName": "$ss26_ExpressibleByImageLiteralP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/ios-sdk\/Notification\/MDMInBox\/Views\/TableViews\/Cells\/Controllers\/GeoPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 483,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/ios-sdk\/Notification\/MDMInBox\/Views\/TableViews\/Cells\/ProductTableViewCell.swift",
+      "kind": "Array",
+      "offset": 242,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/ios-sdk\/Notification\/MDMInBox\/Views\/TableViews\/Cells\/Controllers\/SettingsMenuTableViewController.swift",
+      "kind": "Array",
+      "offset": 259,
+      "length": 33,
+      "value": "[\"Preferências\", \"Localização\"]"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/ios-sdk\/Notification\/MDMInBox\/Views\/TableViews\/Cells\/Controllers\/NotificationInboxViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 272,
+      "length": 19,
+      "value": "\"showGeoPermission\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/ios-sdk\/Notification\/MDMInBox\/Views\/TableViews\/Cells\/Controllers\/NotificationInboxViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 325,
+      "length": 27,
+      "value": "\"showPreferencesPermission\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/ios-sdk\/Notification\/MDMInBox\/Views\/TableViews\/Cells\/Controllers\/LocationSelectView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 399,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/ios-sdk\/Notification\/MDMInBox\/Views\/TableViews\/Cells\/Controllers\/LocationSelectView.swift",
+      "kind": "StringLiteral",
+      "offset": 556,
+      "length": 26,
+      "value": "\"Informe cidade e estado:\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/ios-sdk\/Notification\/MDMInBox\/Views\/TableViews\/Cells\/Controllers\/LocationSelectView.swift",
+      "kind": "StringLiteral",
+      "offset": 665,
+      "length": 18,
+      "value": "\"Placeholder Text\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/ios-sdk\/Notification\/MDMInBox\/Views\/TableViews\/Cells\/Controllers\/LocationSelectView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 936,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-eqwawndhbfjrtyhgholtdbvsatdo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 621,
+      "length": 11,
+      "value": "\"textColor\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-eqwawndhbfjrtyhgholtdbvsatdo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 867,
+      "length": 12,
+      "value": "\"appinstall\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-eqwawndhbfjrtyhgholtdbvsatdo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1019,
+      "length": 18,
+      "value": "\"arrow_back_white\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-eqwawndhbfjrtyhgholtdbvsatdo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1183,
+      "length": 21,
+      "value": "\"arrow_forward_white\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-eqwawndhbfjrtyhgholtdbvsatdo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1351,
+      "length": 21,
+      "value": "\"background_carousel\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-eqwawndhbfjrtyhgholtdbvsatdo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1496,
+      "length": 9,
+      "value": "\"coupons\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-eqwawndhbfjrtyhgholtdbvsatdo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1634,
+      "length": 12,
+      "value": "\"ic_archive\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-eqwawndhbfjrtyhgholtdbvsatdo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1780,
+      "length": 15,
+      "value": "\"ic_bell_black\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-eqwawndhbfjrtyhgholtdbvsatdo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1927,
+      "length": 14,
+      "value": "\"ic_bell_gray\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-eqwawndhbfjrtyhgholtdbvsatdo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2068,
+      "length": 11,
+      "value": "\"ic_delete\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-eqwawndhbfjrtyhgholtdbvsatdo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2217,
+      "length": 17,
+      "value": "\"ic_detach_black\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-eqwawndhbfjrtyhgholtdbvsatdo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2370,
+      "length": 16,
+      "value": "\"ic_detach_gray\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-eqwawndhbfjrtyhgholtdbvsatdo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2517,
+      "length": 13,
+      "value": "\"ic_favorite\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-eqwawndhbfjrtyhgholtdbvsatdo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2663,
+      "length": 14,
+      "value": "\"ic_favorites\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-eqwawndhbfjrtyhgholtdbvsatdo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2800,
+      "length": 9,
+      "value": "\"ic_more\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-eqwawndhbfjrtyhgholtdbvsatdo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2930,
+      "length": 8,
+      "value": "\"ic_new\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-eqwawndhbfjrtyhgholtdbvsatdo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3061,
+      "length": 9,
+      "value": "\"ic_read\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-eqwawndhbfjrtyhgholtdbvsatdo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3195,
+      "length": 10,
+      "value": "\"ic_share\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-eqwawndhbfjrtyhgholtdbvsatdo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3332,
+      "length": 11,
+      "value": "\"ic_unread\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-eqwawndhbfjrtyhgholtdbvsatdo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3461,
+      "length": 6,
+      "value": "\"im22\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-eqwawndhbfjrtyhgholtdbvsatdo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3587,
+      "length": 7,
+      "value": "\"img33\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-eqwawndhbfjrtyhgholtdbvsatdo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3726,
+      "length": 13,
+      "value": "\"marketplace\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-eqwawndhbfjrtyhgholtdbvsatdo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3875,
+      "length": 15,
+      "value": "\"notifications\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-eqwawndhbfjrtyhgholtdbvsatdo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4013,
+      "length": 9,
+      "value": "\"teste_1\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-eqwawndhbfjrtyhgholtdbvsatdo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4145,
+      "length": 9,
+      "value": "\"teste_3\""
+    }
+  ]
+}
