@@ -1,0 +1,45 @@
+PODS:
+  - MDMAppBehavior (3.10.2):
+    - MDMAppBehavior/MDM (= 3.10.2)
+  - MDMAppBehavior/MDM (3.10.2):
+    - MDMCore (= 3.10.2)
+  - MDMBundle (3.10.2):
+    - MDMBundle/MDM (= 3.10.2)
+  - MDMBundle/MDM (3.10.2):
+    - MDMAppBehavior (= 3.10.2)
+    - MDMCore (= 3.10.2)
+    - MDMGeoBehavior (= 3.10.2)
+    - MDMNotification (= 3.10.2)
+  - MDMCore (3.10.2)
+  - MDMGeoBehavior (3.10.2):
+    - MDMGeoBehavior/MDM (= 3.10.2)
+  - MDMGeoBehavior/MDM (3.10.2):
+    - MDMCore (= 3.10.2)
+  - MDMNotification (3.10.2):
+    - MDMNotification/MDM (= 3.10.2)
+  - MDMNotification/MDM (3.10.2):
+    - MDMCore (= 3.10.2)
+
+DEPENDENCIES:
+  - MDMBundle (= 3.10.2)
+  - MDMCore (= 3.10.2)
+  - MDMNotification (= 3.10.2)
+
+SPEC REPOS:
+  trunk:
+    - MDMAppBehavior
+    - MDMBundle
+    - MDMCore
+    - MDMGeoBehavior
+    - MDMNotification
+
+SPEC CHECKSUMS:
+  MDMAppBehavior: ea0bf5692d61a9b0f6c53f6da36517cd4e813d5c
+  MDMBundle: bc290ab165b8d68c4072b17fed9b33599a3b4d78
+  MDMCore: 4a4644b43573f7aaa99b9d3ecda301171ccfde20
+  MDMGeoBehavior: 5948b2897d875b418ebb3d3ad180829b3ae0c780
+  MDMNotification: 384c3bca5acb394d027b109abdf0fd0ebe28f3e0
+
+PODFILE CHECKSUM: 45ada81cecaabcd6ebd7a1b7a7bb788b41f5caaa
+
+COCOAPODS: 1.16.2

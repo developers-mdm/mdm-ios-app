@@ -1,0 +1,4421 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "MDMNotification",
+    "printedName": "MDMNotification",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ObjectiveC.runtime",
+        "printedName": "ObjectiveC.runtime",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InboxInjection",
+        "printedName": "InboxInjection",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "execute",
+            "printedName": "execute()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MDMNotification@objc(cs)InboxInjection(cm)execute",
+            "mangledName": "$s15MDMNotification14InboxInjectionC7executeyyFZ",
+            "moduleName": "MDMNotification",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InboxInjection",
+                "printedName": "MDMNotification.InboxInjection",
+                "usr": "c:@M@MDMNotification@objc(cs)InboxInjection"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MDMNotification@objc(cs)InboxInjection(im)init",
+            "mangledName": "$s15MDMNotification14InboxInjectionCACycfc",
+            "moduleName": "MDMNotification",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MDMNotification@objc(cs)InboxInjection",
+        "mangledName": "$s15MDMNotification14InboxInjectionC",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InboxMainTabBarController",
+        "printedName": "InboxMainTabBarController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MDMNotification@objc(cs)InboxMainTabBarController(im)viewDidLoad",
+            "mangledName": "$s15MDMNotification25InboxMainTabBarControllerC11viewDidLoadyyF",
+            "moduleName": "MDMNotification",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidAppear",
+            "printedName": "viewDidAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MDMNotification@objc(cs)InboxMainTabBarController(im)viewDidAppear:",
+            "mangledName": "$s15MDMNotification25InboxMainTabBarControllerC13viewDidAppearyySbF",
+            "moduleName": "MDMNotification",
+            "overriding": true,
+            "objc_name": "viewDidAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(tabs:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InboxMainTabBarController",
+                "printedName": "MDMNotification.InboxMainTabBarController",
+                "usr": "c:@M@MDMNotification@objc(cs)InboxMainTabBarController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UITab]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITab",
+                    "printedName": "UIKit.UITab",
+                    "usr": "c:objc(cs)UITab"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MDMNotification@objc(cs)InboxMainTabBarController(im)initWithTabs:",
+            "mangledName": "$s15MDMNotification25InboxMainTabBarControllerC4tabsACSaySo5UITabCG_tcfc",
+            "moduleName": "MDMNotification",
+            "overriding": true,
+            "implicit": true,
+            "intro_iOS": "18.0",
+            "objc_name": "initWithTabs:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "Available"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InboxMainTabBarController",
+                "printedName": "MDMNotification.InboxMainTabBarController",
+                "usr": "c:@M@MDMNotification@objc(cs)InboxMainTabBarController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MDMNotification@objc(cs)InboxMainTabBarController(im)initWithNibName:bundle:",
+            "mangledName": "$s15MDMNotification25InboxMainTabBarControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "MDMNotification",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MDMNotification.InboxMainTabBarController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InboxMainTabBarController",
+                    "printedName": "MDMNotification.InboxMainTabBarController",
+                    "usr": "c:@M@MDMNotification@objc(cs)InboxMainTabBarController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MDMNotification@objc(cs)InboxMainTabBarController(im)initWithCoder:",
+            "mangledName": "$s15MDMNotification25InboxMainTabBarControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "MDMNotification",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MDMNotification@objc(cs)InboxMainTabBarController",
+        "mangledName": "$s15MDMNotification25InboxMainTabBarControllerC",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UITabBarController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UITabBarController",
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ImageIO",
+        "printedName": "ImageIO",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDMCore",
+        "printedName": "MDMCore",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "MDMNotification"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIView",
+        "printedName": "UIView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "addSubviews",
+            "printedName": "addSubviews(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIView]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC15MDMNotificationE11addSubviewsyyABd_tF",
+            "mangledName": "$sSo6UIViewC15MDMNotificationE11addSubviewsyyABd_tF",
+            "moduleName": "MDMNotification",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIView",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIStackView",
+        "printedName": "UIStackView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "addArrangedSubviews",
+            "printedName": "addArrangedSubviews(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIView]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UIStackViewC15MDMNotificationE19addArrangedSubviewsyySo6UIViewCd_tF",
+            "mangledName": "$sSo11UIStackViewC15MDMNotificationE19addArrangedSubviewsyySo6UIViewCd_tF",
+            "moduleName": "MDMNotification",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addArrangedSubviews",
+            "printedName": "addArrangedSubviews(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIView]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UIStackViewC15MDMNotificationE19addArrangedSubviewsyySaySo6UIViewCGF",
+            "mangledName": "$sSo11UIStackViewC15MDMNotificationE19addArrangedSubviewsyySaySo6UIViewCGF",
+            "moduleName": "MDMNotification",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addArrangedSubviews",
+            "printedName": "addArrangedSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UIStackViewC15MDMNotificationE19addArrangedSubviewsyyF",
+            "mangledName": "$sSo11UIStackViewC15MDMNotificationE19addArrangedSubviewsyyF",
+            "moduleName": "MDMNotification",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeAllArrangedSubviews",
+            "printedName": "removeAllArrangedSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UIStackViewC15MDMNotificationE25removeAllArrangedSubviewsyyF",
+            "mangledName": "$sSo11UIStackViewC15MDMNotificationE25removeAllArrangedSubviewsyyF",
+            "moduleName": "MDMNotification",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIStackView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "9.0",
+        "objc_name": "UIStackView",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIImage",
+        "printedName": "UIImage",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "gifImageWithData",
+            "printedName": "gifImageWithData(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIImageC15MDMNotificationE16gifImageWithDatayABSg10Foundation0F0VFZ",
+            "mangledName": "$sSo7UIImageC15MDMNotificationE16gifImageWithDatayABSg10Foundation0F0VFZ",
+            "moduleName": "MDMNotification",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "gifImageWithURL",
+            "printedName": "gifImageWithURL(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIImageC15MDMNotificationE15gifImageWithURLyABSgSSSgFZ",
+            "mangledName": "$sSo7UIImageC15MDMNotificationE15gifImageWithURLyABSgSSSgFZ",
+            "moduleName": "MDMNotification",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "gifImageWithName",
+            "printedName": "gifImageWithName(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIImageC15MDMNotificationE16gifImageWithNameyABSgSSFZ",
+            "mangledName": "$sSo7UIImageC15MDMNotificationE16gifImageWithNameyABSgSSFZ",
+            "moduleName": "MDMNotification",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIImage",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIImage",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByImageLiteral",
+            "printedName": "_ExpressibleByImageLiteral",
+            "usr": "s:s26_ExpressibleByImageLiteralP",
+            "mangledName": "$ss26_ExpressibleByImageLiteralP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/DependencyInjection.swift",
+      "kind": "Dictionary",
+      "offset": 312,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/Scene\/InboxCategory\/InboxCategoryViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 697,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightNoBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 530,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightNoBannerTableViewCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 622,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightNoBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 674,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightNoBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 685,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightNoBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 722,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightNoBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1069,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightNoBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1218,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightNoBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1388,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightNoBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1536,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightNoBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1932,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightNoBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2297,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightNoBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2446,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 711,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 860,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1030,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1178,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationBannerTableViewCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 1544,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1656,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationBannerTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1692,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1864,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2014,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxApplicationTableView\/ViewCell\/InboxApplicationBaseTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 685,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxApplicationTableView\/ViewCell\/InboxApplicationBaseTableViewCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 777,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxApplicationTableView\/ViewCell\/InboxApplicationBaseTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 829,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxApplicationTableView\/ViewCell\/InboxApplicationBaseTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 840,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxApplicationTableView\/ViewCell\/InboxApplicationBaseTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 877,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxApplicationTableView\/ViewCell\/InboxApplicationBaseTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1210,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxApplicationTableView\/ViewCell\/InboxApplicationBaseTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1359,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxApplicationTableView\/ViewCell\/InboxApplicationBaseTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1517,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxApplicationTableView\/ViewCell\/InboxApplicationBaseTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1666,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxApplicationTableView\/ViewCell\/InboxApplicationBaseTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1906,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxApplicationTableView\/ViewCell\/InboxApplicationBaseTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2221,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxApplicationTableView\/ViewCell\/InboxApplicationBaseTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2370,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxCouponTableView\/ViewCell\/InboxCouponBaseTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 635,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxCouponTableView\/ViewCell\/InboxCouponBaseTableViewCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 727,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxCouponTableView\/ViewCell\/InboxCouponBaseTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 779,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxCouponTableView\/ViewCell\/InboxCouponBaseTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 790,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxCouponTableView\/ViewCell\/InboxCouponBaseTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 827,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxCouponTableView\/ViewCell\/InboxCouponBaseTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1016,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxCouponTableView\/ViewCell\/InboxCouponBaseTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1171,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxCouponTableView\/ViewCell\/InboxCouponBaseTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1356,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxCouponTableView\/ViewCell\/InboxCouponBaseTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1686,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxCouponTableView\/ViewCell\/InboxCouponBaseTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1871,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxCouponTableView\/ViewCell\/InboxCouponBaseTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2106,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxCategoryTableView\/ViewCell\/InboxPreferenceTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 657,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxCategoryTableView\/ViewCell\/InboxPreferenceTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 778,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Shared\/View\/AlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 385,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Shared\/View\/AlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 702,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Shared\/View\/AlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 833,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Shared\/View\/AlertView.swift",
+      "kind": "StringLiteral",
+      "offset": 977,
+      "length": 18,
+      "value": "\"Tentar novamente\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Shared\/View\/AlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1121,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Data\/Entities\/InboxProductEntity.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1299,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Data\/Entities\/InboxProductEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 4932,
+      "length": 13,
+      "value": "\"description\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/Scene\/InboxApplication\/InboxApplicationInteractor.swift",
+      "kind": "Array",
+      "offset": 793,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/Scene\/InboxApplication\/InboxApplicationInteractor.swift",
+      "kind": "StringLiteral",
+      "offset": 4018,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/Scene\/InboxApplication\/InboxApplicationInteractor.swift",
+      "kind": "StringLiteral",
+      "offset": 4240,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/Scene\/InboxCoupon\/InboxCouponInteractor.swift",
+      "kind": "Array",
+      "offset": 703,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/Scene\/InboxCoupon\/InboxCouponInteractor.swift",
+      "kind": "StringLiteral",
+      "offset": 3708,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/Scene\/InboxCoupon\/InboxCouponInteractor.swift",
+      "kind": "StringLiteral",
+      "offset": 3900,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxProductTableView\/ViewCell\/InboxProductBaseTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 645,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxProductTableView\/ViewCell\/InboxProductBaseTableViewCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 737,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxProductTableView\/ViewCell\/InboxProductBaseTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 789,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxProductTableView\/ViewCell\/InboxProductBaseTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 800,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxProductTableView\/ViewCell\/InboxProductBaseTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 837,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxProductTableView\/ViewCell\/InboxProductBaseTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1027,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxProductTableView\/ViewCell\/InboxProductBaseTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1183,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxProductTableView\/ViewCell\/InboxProductBaseTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1332,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxProductTableView\/ViewCell\/InboxProductBaseTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1701,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxProductTableView\/ViewCell\/InboxProductBaseTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1862,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxProductTableView\/ViewCell\/InboxProductBaseTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2011,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxProductTableView\/ViewCell\/InboxProductBaseTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2247,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxCouponTableView\/ViewCell\/InboxCouponBannerTableViewCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 477,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxCouponTableView\/ViewCell\/InboxCouponBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 589,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxCouponTableView\/ViewCell\/InboxCouponBannerTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 625,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxCouponTableView\/ViewCell\/InboxCouponBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 791,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxCouponTableView\/ViewCell\/InboxCouponBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 941,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/CollectionView\/ViewCell\/InboxGalleryCollectionViewCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 711,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/CollectionView\/ViewCell\/InboxGalleryCollectionViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 823,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/CollectionView\/ViewCell\/InboxGalleryCollectionViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 859,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/CollectionView\/ViewCell\/InboxGalleryCollectionViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1013,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/CollectionView\/ViewCell\/InboxGalleryCollectionViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1196,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationNoBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 661,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationNoBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 810,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationNoBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 980,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationNoBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1128,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 613,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightBannerTableViewCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 705,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 757,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 768,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 805,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1152,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1301,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1471,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1619,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightBannerTableViewCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 1985,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2097,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightBannerTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2133,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2305,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2455,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2663,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3028,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3177,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Shared\/View\/InboxDropDownViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 599,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Shared\/View\/InboxDropDownViewController.swift",
+      "kind": "Array",
+      "offset": 670,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Domain\/Models\/InboxImageDataModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 530,
+      "length": 11,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Domain\/Models\/InboxImageDataModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 543,
+      "length": 9,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Domain\/Models\/InboxImageDataModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 554,
+      "length": 14,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Domain\/Models\/InboxPreferencesModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 451,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Domain\/Models\/InboxPreferencesModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 596,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Shared\/View\/InboxBaseViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 511,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Shared\/View\/InboxBaseViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 560,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Shared\/View\/InboxBaseViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 822,
+      "length": 26,
+      "value": "\"exclamationmark.triangle\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Shared\/View\/InboxBaseViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 917,
+      "length": 34,
+      "value": "\"Não há itens a serem exibidos.\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Shared\/View\/InboxBaseViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1104,
+      "length": 12,
+      "value": "\"arrow.down\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Shared\/View\/InboxBaseViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1326,
+      "length": 12,
+      "value": "\"Selecionar\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Shared\/View\/InboxBaseViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1576,
+      "length": 22,
+      "value": "\"ellipsis.circle.fill\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Shared\/View\/InboxBaseViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1833,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 714,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 863,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1033,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1181,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1618,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1627,
+      "length": 2,
+      "value": "72"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1639,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1649,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationGalleryTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1807,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Data\/Entities\/InboxApplicationEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 1012,
+      "length": 12,
+      "value": "\"appInstall\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Data\/Entities\/InboxApplicationEntity.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1300,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Shared\/Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 340,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Shared\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6126,
+      "length": 42,
+      "value": "\"Formato de data inválido: \""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Shared\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6167,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Shared\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6267,
+      "length": 24,
+      "value": "\"yyyy-MM-dd'T'HH:mm:ssZ\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Shared\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6537,
+      "length": 24,
+      "value": "\"yyyy-MM-dd'T'HH:mm:ssZ\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Shared\/Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7180,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Shared\/Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7582,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxApplicationTableView\/ViewCell\/InboxApplicationBannerTableViewCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 502,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxApplicationTableView\/ViewCell\/InboxApplicationBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 614,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxApplicationTableView\/ViewCell\/InboxApplicationBannerTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 650,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxApplicationTableView\/ViewCell\/InboxApplicationBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 821,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxApplicationTableView\/ViewCell\/InboxApplicationBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 971,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 583,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightGalleryTableViewCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 675,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 727,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 738,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 775,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1122,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1271,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1441,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1589,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2026,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2035,
+      "length": 2,
+      "value": "72"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2047,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2057,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightGalleryTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2215,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2516,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2881,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3030,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationTwoImagesTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 720,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationTwoImagesTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 869,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationTwoImagesTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1039,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationTwoImagesTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1187,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationTwoImagesTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1731,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxApplicationTableView\/ViewCell\/InboxApplicationTwoImagesTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 689,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxProductTableView\/ViewCell\/InboxProductGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 556,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxProductTableView\/ViewCell\/InboxProductGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 565,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxProductTableView\/ViewCell\/InboxProductGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 577,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxProductTableView\/ViewCell\/InboxProductGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 587,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxProductTableView\/ViewCell\/InboxProductGalleryTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 746,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/Scene\/InboxProduct\/InboxProductInteractor.swift",
+      "kind": "Array",
+      "offset": 721,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/Scene\/InboxProduct\/InboxProductInteractor.swift",
+      "kind": "StringLiteral",
+      "offset": 3770,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/Scene\/InboxProduct\/InboxProductInteractor.swift",
+      "kind": "StringLiteral",
+      "offset": 3968,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Data\/Entities\/InboxPreferencesEntity.swift",
+      "kind": "BooleanLiteral",
+      "offset": 320,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Data\/Entities\/InboxPreferencesEntity.swift",
+      "kind": "BooleanLiteral",
+      "offset": 440,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Data\/Entities\/InboxCouponEntity.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1131,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxProductTableView\/ViewCell\/InboxProductBannerTableViewCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 482,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxProductTableView\/ViewCell\/InboxProductBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 594,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxProductTableView\/ViewCell\/InboxProductBannerTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 630,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxProductTableView\/ViewCell\/InboxProductBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 797,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxProductTableView\/ViewCell\/InboxProductBannerTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 947,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxApplicationTableView\/ViewCell\/InboxApplicationGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 576,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxApplicationTableView\/ViewCell\/InboxApplicationGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 585,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxApplicationTableView\/ViewCell\/InboxApplicationGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 597,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxApplicationTableView\/ViewCell\/InboxApplicationGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 607,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxApplicationTableView\/ViewCell\/InboxApplicationGalleryTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 766,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightTwoImagesTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 580,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightTwoImagesTableViewCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 672,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightTwoImagesTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 724,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightTwoImagesTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 735,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightTwoImagesTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 772,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightTwoImagesTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1119,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightTwoImagesTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1268,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightTwoImagesTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1438,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightTwoImagesTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1586,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightTwoImagesTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2130,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightTwoImagesTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2431,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightTwoImagesTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2796,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxNotificationTableView\/ViewCell\/InboxNotificationHighlightTwoImagesTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2945,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/Scene\/InboxNotification\/InboxNotificationViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 562,
+      "length": 6,
+      "value": "\"Novo\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/Scene\/InboxNotification\/InboxNotificationViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 570,
+      "length": 11,
+      "value": "\"Favoritos\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/Scene\/InboxNotification\/InboxNotificationViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 583,
+      "length": 9,
+      "value": "\"Arquivo\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/Scene\/InboxNotification\/InboxNotificationViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 636,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/Scene\/InboxNotification\/InboxNotificationViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 995,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/Scene\/InboxNotification\/InboxNotificationViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1035,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/Scene\/InboxNotification\/InboxNotificationViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1425,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxCouponTableView\/ViewCell\/InboxCouponGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 547,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxCouponTableView\/ViewCell\/InboxCouponGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 556,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxCouponTableView\/ViewCell\/InboxCouponGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 568,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxCouponTableView\/ViewCell\/InboxCouponGalleryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 578,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/TableView\/InboxCouponTableView\/ViewCell\/InboxCouponGalleryTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 737,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/Scene\/InboxLocation\/InboxLocationViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 840,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/Scene\/InboxLocation\/InboxLocationViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 998,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/Scene\/InboxLocation\/InboxLocationViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1131,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/Scene\/InboxLocation\/InboxLocationViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1362,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/Scene\/InboxLocation\/InboxLocationViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1519,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/Scene\/InboxLocation\/InboxLocationViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1592,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/Scene\/InboxLocation\/InboxLocationViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1743,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/Scene\/InboxLocation\/InboxLocationViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1816,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/Scene\/InboxLocation\/InboxLocationViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2126,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/Scene\/InboxLocation\/InboxLocationViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2288,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Workspaces\/Hands\/iOS\/ios-sdk\/Notification\/MDMInBox\/Presentation\/Scene\/InboxLocation\/InboxLocationViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2420,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-bplizxsfdisdecgnvsgnmgxtwxlg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 621,
+      "length": 11,
+      "value": "\"textColor\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-bplizxsfdisdecgnvsgnmgxtwxlg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 867,
+      "length": 12,
+      "value": "\"appinstall\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-bplizxsfdisdecgnvsgnmgxtwxlg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1019,
+      "length": 18,
+      "value": "\"arrow_back_white\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-bplizxsfdisdecgnvsgnmgxtwxlg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1183,
+      "length": 21,
+      "value": "\"arrow_forward_white\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-bplizxsfdisdecgnvsgnmgxtwxlg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1351,
+      "length": 21,
+      "value": "\"background_carousel\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-bplizxsfdisdecgnvsgnmgxtwxlg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1496,
+      "length": 9,
+      "value": "\"coupons\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-bplizxsfdisdecgnvsgnmgxtwxlg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1634,
+      "length": 12,
+      "value": "\"ic_archive\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-bplizxsfdisdecgnvsgnmgxtwxlg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1780,
+      "length": 15,
+      "value": "\"ic_bell_black\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-bplizxsfdisdecgnvsgnmgxtwxlg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1927,
+      "length": 14,
+      "value": "\"ic_bell_gray\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-bplizxsfdisdecgnvsgnmgxtwxlg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2068,
+      "length": 11,
+      "value": "\"ic_delete\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-bplizxsfdisdecgnvsgnmgxtwxlg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2217,
+      "length": 17,
+      "value": "\"ic_detach_black\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-bplizxsfdisdecgnvsgnmgxtwxlg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2370,
+      "length": 16,
+      "value": "\"ic_detach_gray\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-bplizxsfdisdecgnvsgnmgxtwxlg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2517,
+      "length": 13,
+      "value": "\"ic_favorite\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-bplizxsfdisdecgnvsgnmgxtwxlg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2663,
+      "length": 14,
+      "value": "\"ic_favorites\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-bplizxsfdisdecgnvsgnmgxtwxlg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2800,
+      "length": 9,
+      "value": "\"ic_more\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-bplizxsfdisdecgnvsgnmgxtwxlg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2930,
+      "length": 8,
+      "value": "\"ic_new\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-bplizxsfdisdecgnvsgnmgxtwxlg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3061,
+      "length": 9,
+      "value": "\"ic_read\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-bplizxsfdisdecgnvsgnmgxtwxlg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3195,
+      "length": 10,
+      "value": "\"ic_share\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-bplizxsfdisdecgnvsgnmgxtwxlg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3332,
+      "length": 11,
+      "value": "\"ic_unread\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-bplizxsfdisdecgnvsgnmgxtwxlg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3461,
+      "length": 6,
+      "value": "\"im22\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-bplizxsfdisdecgnvsgnmgxtwxlg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3587,
+      "length": 7,
+      "value": "\"img33\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-bplizxsfdisdecgnvsgnmgxtwxlg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3726,
+      "length": 13,
+      "value": "\"marketplace\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-bplizxsfdisdecgnvsgnmgxtwxlg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3875,
+      "length": 15,
+      "value": "\"notifications\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-bplizxsfdisdecgnvsgnmgxtwxlg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4013,
+      "length": 9,
+      "value": "\"teste_1\""
+    },
+    {
+      "filePath": "\/Users\/robsonmoreira\/Library\/Developer\/Xcode\/DerivedData\/HandsMDM-bplizxsfdisdecgnvsgnmgxtwxlg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MDMNotificationRelease\/IntermediateBuildFilesPath\/HandsMDM.build\/Release-iphoneos\/MDMNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4145,
+      "length": 9,
+      "value": "\"teste_3\""
+    }
+  ]
+}

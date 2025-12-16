@@ -1,0 +1,11 @@
+framework module MDMCore {
+  umbrella header "MDMCore.h"
+  export *
+
+  module * { export * }
+}
+
+module MDMCore.Swift {
+  header "MDMCore-Swift.h"
+  requires objc
+}
